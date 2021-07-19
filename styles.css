@@ -60,7 +60,7 @@ a {
   background: url(/Assets/vs.png);
   background-position: 8px 8px;
   background-repeat: no-repeat;
-  background-size: 50px;
+  background-size: cover;
   display: flex;
   background-color: black !important;
 }
@@ -68,4 +68,29 @@ a {
 .btndropdown {
   background-color: black !important;
   border-style: none !important;
+}
+
+.goodMorning {
+  color: white;
+  position: absolute;
+  left: 270px;
+  top: 100px;
+  font-weight: bold;
+}
+
+.topNavImg {
+  max-width: 120px;
+  object-fit: !important;
+}
+
+.cardTop {
+  display: flex;
+  background-color: #3a2627;
+  height: 90px;
+  width: 400px;
+}
+
+.card-text {
+  position: relative;
+  top: 25%;
 }
