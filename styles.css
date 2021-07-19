@@ -8,6 +8,7 @@
 
 body {
   background-color: #300c0c !important;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -78,14 +79,6 @@ a {
   border-style: none !important;
 }
 
-.goodMorning {
-  color: white;
-  position: absolute;
-  left: 270px;
-  top: 100px;
-  font-weight: bold;
-}
-
 .goodMorningTxt {
   position: absolute;
   left: 290px;
@@ -100,7 +93,6 @@ a {
   top: 140px;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 10px;
 }
 
 .card {
@@ -119,8 +111,14 @@ a {
   right: 30%;
 }
 
-.goodMorningOptions {
-  margin-bottom: 10px !important;
+.col-sm {
+  flex-basis: 0px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  margin-bottom: 10px;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
 }
 
 /* Album Page 
