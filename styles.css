@@ -99,6 +99,8 @@ a {
   position: relative;
   max-height: 100px !important;
   width: 300px !important;
+  background-color: rgba(98, 96, 91, 0.253) !important;
+  color: white;
 }
 
 .cardTopImg {
