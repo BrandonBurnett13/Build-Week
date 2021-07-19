@@ -1,152 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="nav flex-column">
-        <img class="logo" src="Assets/Spotify_Logo_RGB_White.png">
-        <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="#">Search</a>
-        <a class="nav-link" href="#">Your Library</a>
-        <a class="nav-link" href="#">Create Playlist</a>
-        <a class="nav-link" href="#">Liked Songs</a>
-        <ul>
-            <li>
-              <a class="nav-link" href="#">Funky Heavy Bluesy</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Your Top Songs 2020</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">In Love With You - Erykah Blahdeyblah</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">This Is Rod Stewart</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">FRANCHISE ft. Young Thug</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Your Top Songs 2019</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Pallaggio</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">This Is Joe Bonamassa</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">June 19</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Jack 30th Party 2</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Jack 30th Party</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">This Is Opeth</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Metal Ballads</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">New Playlist</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Your Top Songs 2018</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Jazz Classics</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Blues Classics</a>
-            </li>
-        </ul>
-        <a class="nav-link install" href="#">Install App</a>
-      </nav>
-      <div class="topNav">
-          <div class="container-fluid">
-              <div class="row">
-                  <div class="col-12d-flex">
-                    <div class="arrows">
-                        <a href="#"><</a>
-                        <a href="#">></a>
-                    </div>
-                    <div class="userSect">
-                        <div class="dropdown">
-                            
-                            <button class="btn btndropdown btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="userImg" src="Assets/vs.png">Paul Murray
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">Action</a>
-                              <a class="dropdown-item" href="#">Another action</a>
-                              <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                          </div>
-                    </div>
-                  </div>
-              </div>
-          </div>
-      </div>
+      <img class="logo" src="Assets/Spotify_Logo_RGB_White.png" />
+      <a class="nav-link active" href="#">Home</a>
+      <a class="nav-link" href="#">Search</a>
+      <a class="nav-link" href="#">Your Library</a>
+      <a class="nav-link" href="#">Create Playlist</a>
+      <a class="nav-link" href="#">Liked Songs</a>
+      <ul>
+        <li>
+          <a class="nav-link" href="#">Funky Heavy Bluesy</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Your Top Songs 2020</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">In Love With You - Erykah Blahdeyblah</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">This Is Rod Stewart</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">FRANCHISE ft. Young Thug</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Your Top Songs 2019</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Pallaggio</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">This Is Joe Bonamassa</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">June 19</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Jack 30th Party 2</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Jack 30th Party</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">This Is Opeth</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Metal Ballads</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">New Playlist</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Your Top Songs 2018</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Jazz Classics</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Blues Classics</a>
+        </li>
+      </ul>
+      <a class="nav-link install" href="#">Install App</a>
+    </nav>
+    <div class="topNav">
       <div class="container-fluid">
-        <div class="container goodMorningTxt">
-            <h7>Good Morning</h7>
+        <div class="row">
+          <div class="col-12d-flex">
+            <div class="arrows">
+              <a href="#"><</a>
+              <a href="#">></a>
+            </div>
+            <div class="userSect">
+              <div class="dropdown">
+                <button
+                  class="btn btndropdown btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <img class="userImg" src="Assets/vs.png" />Paul Murray
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container goodMorningTxt">
+        <h7>Good Morning</h7>
+      </div>
     </div>
     <div class="container-fluid goodMorningOptions">
-        <div class="row row-cols-5">
-            <div class="col-sm d-flex">
-                
-                <div class="card">
-                      <div class="row">
-                        <div class="col">
-                            <img class="cardTopImg" src="Assets/Jazz.jfif" class="img-fluid" alt="">
-                        </div>
-                        <div class="col">
-                            <div class="card-block px-2">
-                                <h7 class="card-text">Louis Armstrong</h7>
-                            </div>
-                        </div>
-                      </div>             
-               </div>   
-            </div>
-         </div>
-            <div class="col-sm d-flex">
-                
-            
-                    
-    </div>
-
-
-
-
-
-        <a href="#">
-            <div class="card">
+      <div class="row row-cols-5">
+        <div class="col-sm d-flex">
+          <div class="card">
             <div class="row">
-                <div class="col">
-                    <img class="cardTopImg" src="Assets/Jazz.jfif" class="img-fluid" alt="">
-                </div>
-                <div class="col">
-                    <div class="card-block px-2">
-                       
-                        <h7 class="card-text">Louis Armstrong</h7>
-                        
-                    </div>
-                
-           
-            </a>
-
-
-
-    
-</body>
+              <div class="col">
+                <img
+                  class="cardTopImg"
+                  src="Assets/Jazz.jfif"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col colText">
+                <div class="cardText">Louis Armstrong</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm d-flex">
+          <div class="card">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="cardTopImg"
+                  src="Assets/Jazz.jfif"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col colText">
+                <div class="cardText">Louis Armstrong</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm d-flex">
+          <div class="card">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="cardTopImg"
+                  src="Assets/Jazz.jfif"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col colText">
+                <div class="cardText">Louis Armstrong</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm d-flex">
+          <div class="card">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="cardTopImg"
+                  src="Assets/Jazz.jfif"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col colText">
+                <div class="cardText">Louis Armstrong</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm d-flex">
+          <div class="card">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="cardTopImg"
+                  src="Assets/Jazz.jfif"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col colText">
+                <div class="cardText">Louis Armstrong</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm d-flex">
+          <div class="card">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="cardTopImg"
+                  src="Assets/Jazz.jfif"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col colText">
+                <div class="cardText">Louis Armstrong</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm d-flex">
+          <div class="card">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="cardTopImg"
+                  src="Assets/Jazz.jfif"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col colText">
+                <div class="cardText">Louis Armstrong</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm d-flex">
+          <div class="card">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="cardTopImg"
+                  src="Assets/Jazz.jfif"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col colText">
+                <div class="cardText">Louis Armstrong</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm d-flex">
+          <div class="card">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="cardTopImg"
+                  src="Assets/Jazz.jfif"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col colText">
+                <div class="cardText">Louis Armstrong</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm d-flex">
+          <div class="card">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="cardTopImg"
+                  src="Assets/Jazz.jfif"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col colText">
+                <div class="cardText">Louis Armstrong</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
