@@ -1,0 +1,31 @@
+body {
+  background-color: #300c0c !important;
+}
+
+.logo {
+  max-width: 110px;
+}
+
+nav {
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+nav ul {
+  position: absolute;
+  left: 110px;
+  top: 250px;
+  height: 500px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+a {
+  color: grey !important;
+}
+
+.install {
+  position: absolute;
+  left: 110;
+  top: 750px;
+}
