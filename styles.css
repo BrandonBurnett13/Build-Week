@@ -29,3 +29,37 @@ a {
   left: 110;
   top: 750px;
 }
+
+.topNav {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+
+.arrows a {
+  color: rgb(255, 255, 255) !important;
+}
+
+.arrows {
+  font-size: 40px;
+}
+
+.userSect {
+  position: absolute;
+  top: 10px;
+  left: 1400px;
+}
+
+.userImg {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.dropdown {
+  background: #777474 url(/Assets/vs.png) border-radius: 50%;
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  display: flex;
+}
