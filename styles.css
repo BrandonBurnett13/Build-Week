@@ -1,3 +1,11 @@
+::-webkit-scrollbar {
+  background-color: rgb(34, 28, 28);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(117, 110, 110) !important;
+}
+
 body {
   background-color: #300c0c !important;
 }
@@ -90,6 +98,12 @@ a {
   position: absolute;
   left: 270px;
   top: 140px;
+}
+
+.goodMorningTwo {
+  color: white;
+  position: absolute;
+  top: 160px;
 }
 
 .card {
