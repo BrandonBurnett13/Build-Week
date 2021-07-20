@@ -333,21 +333,21 @@ p {
 .playButton {
   position: absolute;
   left: 50%;
-  top: 1px;
+  top: 10px;
   max-height: 40px;
 }
 
 .rewindButton {
   position: absolute;
   left: 47%;
-  top: 12px;
+  top: 20px;
   max-height: 20px;
 }
 
 .forwardButton {
   position: absolute;
   left: 54%;
-  top: 12px;
+  top: 20px;
   max-height: 20px;
 }
 
