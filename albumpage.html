@@ -22,29 +22,53 @@
 
         <div class="wrapper">
 
+
+            <!-- sidebar -->
+
+
             <nav id="sidebar">
                 <div class="sidebar-header">
                     <img src="./Assets/Spotify_Logo_RGB_White.png" class="img-fluid text-light" width="100px" alt="">
 
 
                     <ul class="list-unstyled components">
-                        <li class="active">
-                            <a href="#" data-toggle="collapse" aria-expanded="false"> <i class="fas fa-home"></i>
-                                Home</a>
+
+                        <li class="d-flex flex-wrap">
+                            <i class="fas fa-home align-self-center" width="20px" height="20px"></i>
+                            <a href="#" class="ml-2"> Home</a>
 
                         </li>
-                        <li>
-                            <a href="#"><i class="fas fa-search"></i> Search</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-grip-lines-vertical"></i> Your Library</a>
-                        </li>
-                        <li>
 
-                            <a href="#"><i class="fab fa-gratipay"></i> Liked Songs</a>
+                        <li class="d-flex flex-wrap">
+                            <i class="fas fa-search align-self-center" width="20px" height="20px"></i>
+                            <a href="#" class="ml-2"> Search</a>
+
                         </li>
+
+                        <li class="d-flex flex-wrap">
+
+                            <img src="./Assets/libraryicon.png" alt="" width="20px" height="20px"
+                                class="align-self-center"><a href="#" class="ml-2"> Your Library</a>
+
+                        </li>
+
+                        <li class="d-flex flex-wrap mt-4">
+
+                            <img src="./Assets/createicon.png" alt="" width="20px" height="20px"
+                                class="align-self-center"><a href="#" class="ml-2"> Create
+                                Playlist</a>
+
+                        </li>
+                        <li class="d-flex flex-wrap">
+
+                            <img src="./Assets/Liked song icon.png" alt="" width="20px" height="20px"
+                                class="align-self-center"><a href="#" class="ml-2"> Liked Songs</a>
+
+                        </li>
+
+
                         <hr class="border-bottom text-muted">
-                        <div class="text-muted" style="font-size: 12px;">
+                        <div class="text-muted" style="font-size: 11px; overflow: auto; height: 400px;">
 
 
                             <li>
@@ -109,6 +133,7 @@
 
 
 
+            <!-- user/jumbotron -->
 
 
             <div class="container-fluid text-light">
@@ -154,6 +179,12 @@
                                 min</span></h6>
                     </div>
                 </div>
+
+
+
+                <!-- Track list -->
+
+
                 <div class="p-2"
                     style="background-image: linear-gradient(to top, #121212 0%, #36122b 100%); opacity: 0.9;">
                     <div class="d-flex justify-content-start">
