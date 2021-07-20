@@ -89,7 +89,7 @@ a {
 
 .goodMorningOptions {
   position: absolute;
-  left: 290px;
+  left: 300px;
   top: 140px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -134,7 +134,7 @@ a {
 .recentlyPlayedOptions {
   position: absolute;
   top: 420px;
-  left: 290px;
+  left: 300px;
 }
 
 .card-img-top-recently {
@@ -159,6 +159,27 @@ a {
   margin-left: auto;
 }
 
+.container-fluid {
+  width: 85% !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.showsToTryTxt {
+  position: absolute;
+  top: 650px;
+  left: 290px;
+  color: white;
+  font-size: 40px;
+}
+
+.showsToTryTxt > p {
+  font-weight: normal !important;
+  font-size: 15px;
+  color: grey;
+}
 /* Album Page 
 
 .main{
