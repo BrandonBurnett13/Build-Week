@@ -1,10 +1,6 @@
-/* .wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
-} */
+
 body {
-    background-image: linear-gradient(to top, #121212 0%, #8b2b72 100%);
+    background-image: linear-gradient(to top, #121212 0%, #700e58 100%);
 } 
 
 .wrapper {
