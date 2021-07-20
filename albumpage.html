@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <link rel="stylesheet" href="./stylealbum.css">
 
 
     <title>Album Page</title>
@@ -18,62 +18,93 @@
 
 <body>
 
-    <div class="container-fluid text-white px-5"
-        style="background-image: linear-gradient(to top, #121212 0%, #642353 100%); height: 100vh;">
-        <nav class="navbar navbar-expand-lg navbar-dark pr-0">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto ">
-                    <li class="nav-item active mr-4"
-                        style="border: 2px solid black; border-radius: 50px; background-color: #120203; opacity: 0.7;">
-                        <i class="fas fa-chevron-left"></i>
+    <div style="background-image: linear-gradient(to top, #121212 0%, #642353 100%); height: 100vh;">
+
+        <div class="wrapper">
+            <!-- Sidebar -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <img src="./Assets/Spotify_Logo_RGB_White.png" class="img-fluid text-light" width="100px" alt="">
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li class="active">
+                        <a href="#" data-toggle="collapse" aria-expanded="false">Home</a>
 
                     </li>
-                    <li class="nav-item"
-                        style="border: 2px solid black; border-radius: 50px; background-color: #120203; opacity: 0.3;">
-
-                        <i class="fas fa-chevron-right"></i>
+                    <li>
+                        <a href="#">Search</a>
+                    </li>
+                    <li>
+                        <a href="#">Your Library</a>
+                    </li>
+                    <li>
+                        <a href="#">Create PlayList</a>
+                    </li>
+                    <li>
+                        <a href="#">Liked Songs</a>
                     </li>
 
                 </ul>
 
-                <div class="text-white navbar-nav align-items-center"
-                    style="border: 2px solid black; border-radius: 25px; background-color: #120203; font-size: 10px;">
-                    <i class="fas fa-lg fa-user-circle"> <span>emmanuel...</span> </i>
+            </nav>
+            <div class="container-fluid text-light">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto ">
+                            <li class="nav-item active mr-4"
+                                style="border: 2px solid black; border-radius: 50px; background-color: #120203; opacity: 0.7;">
+                                <i class="fas fa-chevron-left"></i>
 
-                    <div class="btn-group ml-2">
-                        <button type="button" class="btn dropdown-toggle text-white p-0" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                        </button>
+                            </li>
+                            <li class="nav-item"
+                                style="border: 2px solid black; border-radius: 50px; background-color: #120203; opacity: 0.3;">
 
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+
+                        </ul>
+
+                        <div class="text-white navbar-nav align-items-center"
+                            style="border: 2px solid black; border-radius: 25px; background-color: #120203; font-size: 10px;">
+                            <i class="fas fa-lg fa-user-circle"> <span>emmanuel...</span> </i>
+
+                            <div class="btn-group ml-2">
+                                <button type="button" class="btn dropdown-toggle text-white p-0" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="jumbotron jumbotron-fluid bg-transparent d-flex flex-wrap pt-0">
+                    <img src="./Assets/Bohemian.png" class="shadow-lg p-1 mb-1 rounded" width="200px" alt="">
+                    <div class="container align-self-end">
+                        <p class="lead">Album</p>
+                        <h2 class="display-5">Bohemian Rapsody(The Original Soundtrack)</h2>
+                        <h6 class="p-1 pl-0" style="font-size: 10px;"><i class="fas fa-lg fa-user-circle"></i><span
+                                class="p-1">Queen</span><span class="text-muted"> . 2018 . 22 songs, 1 hr 19
+                                min</span></h6>
                     </div>
                 </div>
-            </div>
-        </nav>
-        <div class="jumbotron jumbotron-fluid bg-transparent d-flex flex-wrap pt-0">
-            <img src="./Assets/Bohemian.png" class="shadow-lg p-1 mb-1 rounded" width="200px" alt="">
-            <div class="container align-self-end">
-                <p class="lead">Album</p>
-                <h2 class="display-5">Bohemian Rapsody(The Original Soundtrack)</h2>
-                <h6 class="p-1 pl-0" style="font-size: 10px;"><i class="fas fa-lg fa-user-circle"></i><span
-                        class="p-1">Queen</span><span class="text-muted"> . 2018 . 22 songs, 1 hr 19
-                        min</span></h6>
-            </div>
-        </div>
-        <div class="p-5"
-            style="background-image: linear-gradient(to top, #121212 0%, #36122b 100%); height: 50vh; opacity: 0.9;">
-            <div class="d-flex justify-content-start">
-                <div class="align-self-center" style="border-radius: 50px; background-color: #1DB954;">
-                    <i class="fas fa-play text-light p-4 align-self-center" style="font-size: 25px;"></i>
-                </div>
-                <i class="far fa-heart text-muted p-4 align-self-center" style="font-size: 35px;"></i>
-                <i class="fas fa-ellipsis-h p-2 text-muted align-self-center"></i>
-            </div>
-            <div class="pt-4 d-flex justify-content-between border-bottom">
-                <div class="">
-                    <h6> # Title</h6>
-                </div>
-                <div class="">
-                    <i class="far fa-clock"></i>
+                <div class="p-5"
+                    style="background-image: linear-gradient(to top, #121212 0%, #36122b 100%); opacity: 0.9;">
+                    <div class="d-flex justify-content-start">
+                        <div class="align-self-center" style="border-radius: 50px; background-color: #1DB954;">
+                            <i class="fas fa-play text-light p-4 align-self-center" style="font-size: 25px;"></i>
+                        </div>
+                        <i class="far fa-heart text-muted p-4 align-self-center" style="font-size: 35px;"></i>
+                        <i class="fas fa-ellipsis-h p-2 text-muted align-self-center"></i>
+                    </div>
+                    <div class="pt-4 d-flex justify-content-between border-bottom text-muted">
+                        <div class="">
+                            <h6> # Title</h6>
+                        </div>
+                        <div class="">
+                            <i class="far fa-clock"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
 
