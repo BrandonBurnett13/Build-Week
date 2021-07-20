@@ -3,10 +3,13 @@
     width: 100%;
     align-items: stretch;
 } */
+body {
+    background-image: linear-gradient(to top, #121212 0%, #8b2b72 100%);
+} 
 
 .wrapper {
     display: flex;
-    /* align-items: stretch; */
+    align-items: stretch;
 }
 
 #sidebar {
@@ -24,10 +27,7 @@
     /* min-height: 100vh; */
 }
 
-/* body {
-    font-family: 'Poppins', sans-serif;
-    background: #fafafa;
-} */
+
 
 p {
     font-family: 'Poppins', sans-serif;
