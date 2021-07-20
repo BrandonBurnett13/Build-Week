@@ -131,6 +131,12 @@ a {
   font-size: 40px;
 }
 
+.recentlyPlayedOptions {
+  position: absolute;
+  top: 420px;
+  left: 290px;
+}
+
 /* Album Page 
 
 .main{
