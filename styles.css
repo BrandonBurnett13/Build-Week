@@ -14,7 +14,48 @@ body {
 .logo {
   max-width: 110px;
 }
-
+.logoHome {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.logoSearch {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.logoLibrary {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.logoPlaylist {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.logoSpotifyHeart {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.logoInstall {
+  position: relative;
+  top: 510px;
+  left: 5px;
+  max-width: 20px;
+  max-height: 20px;
+}
 nav {
   margin-top: 20px;
 }
@@ -35,7 +76,7 @@ a {
 
 .install {
   position: absolute;
-  left: 110;
+  left: 15px;
   top: 750px;
 }
 
