@@ -7,77 +7,110 @@
 }
 
 body {
-  background-color: #300c0c !important;
+  background-color: #1b1119 !important;
   overflow-x: hidden;
 }
 
 .logo {
-  max-width: 110px;
+  position: relative;
+  max-width: 130px;
+  left: 45px;
 }
 .logoHome {
   position: relative;
   top: 10px;
-  left: 5px;
+  left: 45px;
   max-width: 20px;
   max-height: 20px;
 }
+
+.homeTxt {
+  position: relative;
+  left: 35px;
+}
+
 .logoSearch {
   position: relative;
   top: 10px;
-  left: 5px;
+  left: 45px;
   max-width: 20px;
   max-height: 20px;
 }
+
+.searchTxt {
+  position: relative;
+  left: 35px;
+}
+
 .logoLibrary {
   position: relative;
   top: 10px;
-  left: 5px;
+  left: 45px;
   max-width: 20px;
   max-height: 20px;
 }
+
+.libraryTxt {
+  position: relative;
+  left: 35px;
+}
+
 .logoPlaylist {
   position: relative;
   top: 10px;
-  left: 5px;
+  left: 45px;
   max-width: 20px;
   max-height: 20px;
 }
+
+.createPlaylistTxt {
+  position: relative;
+  left: 35px;
+}
+
 .logoSpotifyHeart {
   position: relative;
   top: 10px;
-  left: 5px;
+  left: 45px;
   max-width: 20px;
   max-height: 20px;
+}
+
+.likedSongsTxt {
+  position: relative;
+  left: 35px;
 }
 .logoInstall {
   position: relative;
-  top: 510px;
-  left: 5px;
+  top: 515px;
+  left: 45px;
   max-width: 20px;
   max-height: 20px;
-}
-nav {
-  margin-top: 20px;
 }
 
 nav ul {
   position: absolute;
-  left: -40px;
-  top: 250px;
+  left: -10px;
+  top: 320px;
   height: 500px;
   overflow: hidden;
   overflow-y: scroll;
   width: 300px;
+  max-height: 600px;
 }
 
 a {
-  color: grey !important;
+  color: rgb(192, 192, 192) !important;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
 .install {
   position: absolute;
-  left: 15px;
-  top: 750px;
+  left: 55px;
+  top: 815px;
 }
 
 .topNav {
@@ -245,6 +278,119 @@ a {
   position: absolute;
   right: 50px;
   top: 650px;
+}
+
+.footer {
+  position: fixed !important;
+  left: 0;
+  height: 80px;
+  bottom: 0 !important;
+  width: 100%;
+  background-color: rgb(65, 60, 60);
+  color: white !important;
+  text-align: center;
+}
+
+.playerImg {
+  position: absolute;
+  max-height: 50px;
+  top: 15px;
+  left: 35px;
+  margin-bottom: 3px;
+}
+
+.playerTrack {
+  position: relative;
+  left: 70px;
+  top: 5px;
+}
+
+.playerIcons {
+  position: relative;
+  left: 330px;
+}
+
+.artistName {
+  color: grey;
+  position: absolute;
+  left: 8px;
+}
+
+.playerHeart {
+  max-height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 250px;
+}
+
+.playerPages {
+  max-height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 220px;
+}
+
+.playButton {
+  position: absolute;
+  left: 50%;
+  top: 1px;
+  max-height: 40px;
+}
+
+.rewindButton {
+  position: absolute;
+  left: 47%;
+  top: 12px;
+  max-height: 20px;
+}
+
+.forwardButton {
+  position: absolute;
+  left: 54%;
+  top: 12px;
+  max-height: 20px;
+}
+
+.startTime {
+  position: absolute;
+  left: 500px;
+}
+
+.progressBar {
+  position: absolute;
+  left: 600px;
+}
+
+.endTime {
+  position: absolute;
+  right: 500px;
+}
+
+.playlistPlayButton {
+  position: absolute;
+  right: 240px;
+  top: 28px;
+  height: 25px;
+}
+
+.playlistDevicesButton {
+  position: absolute;
+  right: 210px;
+  top: 30px;
+  height: 20px;
+}
+
+.playlistVolButton {
+  position: absolute;
+  right: 180px;
+  top: 30px;
+  height: 20px;
+}
+
+.slidecontainer {
+  position: absolute;
+  right: 40px;
+  top: 30px;
 }
 /* Album Page 
 

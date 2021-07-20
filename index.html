@@ -15,30 +15,32 @@
   </head>
   <body>
     <nav class="nav flex-column">
+      <br>
       <img class="logo" src="Assets/Spotify_Logo_RGB_White.png" />
-
+      <br>
       <div class="d-flex">
         <img class="logoHome" src="/Assets/output-onlinepngtools.png" /><a
           class="nav-link active"
           href="#"
-          >Home</a
+          ><p class="homeTxt">Home</p></a
         >
       </div>
       <div class="d-flex">
         <img class="logoSearch" src="/Assets/output-onlinepngtools (1).png" />
 
-        <a class="nav-link" href="#">Search</a>
+        <a class="nav-link" href="#"><p class="searchTxt">Search</p></a>
       </div>
       <div class="d-flex">
         <img class="logoLibrary" src="/Assets/output-onlinepngtools (2).png" />
 
-        <a class="nav-link" href="#">Your Library</a>
+        <a class="nav-link" href="#"><p class="libraryTxt">Your Library</p></a>
       </div>
+      <br>
       <div class="d-flex">
-      <img class="logoPlaylist" src="Assets/output-onlinepngtools (3).png"> <a class="nav-link" href="#">Create Playlist</a>
+      <img class="logoPlaylist" src="Assets/output-onlinepngtools (3).png"> <a class="nav-link" href="#"><p class="createPlaylistTxt">Create Playlist</p></a>
     </div>
     <div class="d-flex">
-      <img class="logoSpotifyHeart" src="Assets/spotifyheart.jfif"><a class="nav-link" href="#">Liked Songs</a>
+      <img class="logoSpotifyHeart" src="Assets/spotifyheart.jfif"><a class="nav-link" href="#"><p class="likedSongsTxt">Liked Songs</p></a>
     </div>
       <ul>
         <li>
@@ -552,5 +554,31 @@
         </div>
       </div>
     </div>
+    <footer class="footer">
+      <div class="d-flex flex-row">
+        <div class="p-2"><img class="playerImg" src="Assets/KORN.jpg" ></div>
+        <div class="p-2 playerTrack"><p>Got The Life - Follow The Leader (1998)</p><p class="artistName">Korn</p></div>
+        <div class="p-2 playerIcons d-flex"><img class="playerHeart" src="Assets/output-onlinepngtools (5).png"><img class="playerPages" src="Assets/output-onlinepngtools (6).png"></div>
+      </div>
+        <div class="d-flex flex-row playerInteractive">
+ 
+          <div class="p-2"><img class="rewindButton" src="Assets/outline_fast_rewind_white_24dp.png"></div>
+          <div class="p-2"><img class="playButton" src="Assets/outline_play_circle_filled_white_24dp.png"> </div>
+          <div class="p-2"><img class="forwardButton" src="Assets/outline_fast_forward_white_24dp.png"></div>
+          <div class="p-2"><p class="startTime">1:05</p><p class="progressBar">__________________________________________________</p>
+          <p class="endTime">3:45</p></div>
+        </div>
+        <div class="d-flex flex-row playerEndSection">
+          <div class="p-2"><img class="playlistPlayButton" src="Assets/outline_playlist_play_white_24dp.png"></div>
+          <div class="p-2"><img class="playlistDevicesButton" src="Assets/outline_devices_white_24dp.png"></div>
+          <div class="p-2"><img class="playlistVolButton" src="Assets/outline_volume_up_white_24dp.png"><div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          </div></div>
+          <div class="p-2"></div>
+        </div>
+       
+        
+      </div>
+    </footer>
   </body>
 </html>
