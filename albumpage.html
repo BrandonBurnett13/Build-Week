@@ -18,36 +18,99 @@
 
 <body>
 
-    <div style="background-image: linear-gradient(to top, #121212 0%, #642353 100%); height: 100vh;">
+    <div>
 
         <div class="wrapper">
-            <!-- Sidebar -->
+
             <nav id="sidebar">
                 <div class="sidebar-header">
                     <img src="./Assets/Spotify_Logo_RGB_White.png" class="img-fluid text-light" width="100px" alt="">
-                </div>
 
-                <ul class="list-unstyled components">
-                    <li class="active">
-                        <a href="#" data-toggle="collapse" aria-expanded="false">Home</a>
 
-                    </li>
-                    <li>
-                        <a href="#">Search</a>
-                    </li>
-                    <li>
-                        <a href="#">Your Library</a>
-                    </li>
-                    <li>
-                        <a href="#">Create PlayList</a>
-                    </li>
-                    <li>
-                        <a href="#">Liked Songs</a>
-                    </li>
+                    <ul class="list-unstyled components">
+                        <li class="active">
+                            <a href="#" data-toggle="collapse" aria-expanded="false"> <i class="fas fa-home"></i>
+                                Home</a>
 
-                </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-search"></i> Search</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-grip-lines-vertical"></i> Your Library</a>
+                        </li>
+                        <li>
 
+                            <a href="#"><i class="fab fa-gratipay"></i> Liked Songs</a>
+                        </li>
+                        <hr class="border-bottom text-muted">
+                        <div class="text-muted" style="font-size: 12px;">
+
+
+                            <li>
+                                <a class="nav-link" href="#">Funky Heavy Bluesy</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Your Top Songs 2020</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">In Love With You - Erykah Blahdeyblah</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">This Is Rod Stewart</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">FRANCHISE ft. Young Thug</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Your Top Songs 2019</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Pallaggio</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">This Is Joe Bonamassa</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">June 19</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Jack 30th Party 2</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Jack 30th Party</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">This Is Opeth</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Metal Ballads</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">New Playlist</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Your Top Songs 2018</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Jazz Classics</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Blues Classics</a>
+                            </li>
+                        </div>
+                    </ul>
+
+
+                    <div class="d-flex">
+                        <a class="nav-link install" href="#"><i class="fas fa-arrow-circle-down"></i> Install App</a>
+                    </div>
             </nav>
+
+
+
+
+
             <div class="container-fluid text-light">
                 <nav class="navbar navbar-expand-lg">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -79,16 +142,19 @@
                     </div>
                 </nav>
                 <div class="jumbotron jumbotron-fluid bg-transparent d-flex flex-wrap pt-0">
-                    <img src="./Assets/Bohemian.png" class="shadow-lg p-1 mb-1 rounded" width="200px" alt="">
-                    <div class="container align-self-end">
-                        <p class="lead">Album</p>
-                        <h2 class="display-5">Bohemian Rapsody(The Original Soundtrack)</h2>
+                    <div class="d-flex flex-wrap">
+
+                        <img src="./Assets/Bohemian.png" class="shadow-lg p-2 m-2 mb-0" width="200px" alt="">
+                    </div>
+                    <div class="align-self-end">
+                        <p class="lead text-light">Album</p>
+                        <h2 class="display-6">Bohemian Rapsody(The Original Soundtrack)</h2>
                         <h6 class="p-1 pl-0" style="font-size: 10px;"><i class="fas fa-lg fa-user-circle"></i><span
                                 class="p-1">Queen</span><span class="text-muted"> . 2018 . 22 songs, 1 hr 19
                                 min</span></h6>
                     </div>
                 </div>
-                <div class="p-5"
+                <div class="p-2"
                     style="background-image: linear-gradient(to top, #121212 0%, #36122b 100%); opacity: 0.9;">
                     <div class="d-flex justify-content-start">
                         <div class="align-self-center" style="border-radius: 50px; background-color: #1DB954;">
@@ -98,13 +164,107 @@
                         <i class="fas fa-ellipsis-h p-2 text-muted align-self-center"></i>
                     </div>
                     <div class="pt-4 d-flex justify-content-between border-bottom text-muted">
-                        <div class="">
-                            <h6> # Title</h6>
+                        <div class="d-flex flex-wrap">
+                            <span>#</span>
+                            <span class="ml-3">Title</span>
                         </div>
                         <div class="">
                             <i class="far fa-clock"></i>
                         </div>
                     </div>
+                    <div class="pt-4 d-flex justify-content-between">
+                        <div class="d-flex flex-wrap">
+                            <span class="text-muted align-self-center">1</span>
+                            <div class="d-flex flex-column align-self-center">
+                                <span class="ml-3" style="font-size: 14px;">20th Century Fox Fanfare</span>
+                                <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
+                            </div>
+
+                        </div>
+                        <div class="">
+                            <span class="text-muted align-self-center" style="font-size: 12px;">0:25</span>
+                        </div>
+                    </div>
+                    <div class="pt-3 d-flex justify-content-between">
+                        <div class="d-flex flex-wrap">
+                            <span class="text-muted align-self-center">2</span>
+                            <div class="d-flex flex-column align-self-center">
+                                <span class="ml-3" style="font-size: 14px;">Somebody To Love</span>
+                                <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
+                            </div>
+
+                        </div>
+                        <div class="">
+                            <span class="text-muted align-self-center" style="font-size: 12px;">4:55</span>
+                        </div>
+                    </div>
+                    <div class="pt-3 d-flex justify-content-between">
+                        <div class="d-flex flex-wrap">
+                            <span class="text-muted align-self-center">3</span>
+                            <div class="d-flex flex-column align-self-center">
+                                <span class="ml-3" style="font-size: 14px;">Doing All Right -...Revisited</span>
+                                <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Smile</span>
+                            </div>
+
+                        </div>
+                        <div class="">
+                            <span class="text-muted align-self-center" style="font-size: 12px;">3:16</span>
+                        </div>
+                    </div>
+                    <div class="pt-3 d-flex justify-content-between">
+                        <div class="d-flex flex-wrap">
+                            <span class="text-muted align-self-center">4</span>
+                            <div class="d-flex flex-column align-self-center">
+                                <span class="ml-3" style="font-size: 14px;">Keep Yourself Alive - Live At The
+                                    Rainbow</span>
+                                <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
+                            </div>
+
+                        </div>
+                        <div class="">
+                            <span class="text-muted align-self-center" style="font-size: 12px;">3:56</span>
+                        </div>
+                    </div>
+                    <div class="pt-3 d-flex justify-content-between">
+                        <div class="d-flex flex-wrap">
+                            <span class="text-muted align-self-center">5</span>
+                            <div class="d-flex flex-column align-self-center">
+                                <span class="ml-3" style="font-size: 14px;">Killer Queen</span>
+                                <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
+                            </div>
+
+                        </div>
+                        <div class="">
+                            <span class="text-muted align-self-center" style="font-size: 12px;">2:59</span>
+                        </div>
+                    </div>
+                    <div class="pt-3 d-flex justify-content-between">
+                        <div class="d-flex flex-wrap">
+                            <span class="text-muted align-self-center">6</span>
+                            <div class="d-flex flex-column align-self-center">
+                                <span class="ml-3" style="font-size: 14px;">Fat Bottomed Girls - Live In Paris</span>
+                                <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
+                            </div>
+
+                        </div>
+                        <div class="">
+                            <span class="text-muted align-self-center" style="font-size: 12px;">4:37</span>
+                        </div>
+                    </div>
+                    <div class="pt-3 d-flex justify-content-between">
+                        <div class="d-flex flex-wrap">
+                            <span class="text-muted align-self-center">7</span>
+                            <div class="d-flex flex-column align-self-center">
+                                <span class="ml-3" style="font-size: 14px;">Bohemian Rhapsody</span>
+                                <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
+                            </div>
+
+                        </div>
+                        <div class="">
+                            <span class="text-muted align-self-center" style="font-size: 12px;">5:54</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
