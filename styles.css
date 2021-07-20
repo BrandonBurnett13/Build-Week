@@ -144,6 +144,10 @@ a {
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
+.card-text-recently {
+  color: grey;
+}
+
 .card-body-recently {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
@@ -170,7 +174,7 @@ a {
 
 .showsToTryTxt {
   position: absolute;
-  top: 650px;
+  top: 620px;
   left: 290px;
   color: white;
   font-size: 30px;
