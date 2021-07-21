@@ -1,3 +1,46 @@
+/** Mobile **/
+@media only screen and (max-width: 767px),
+  only screen and (max-device-width: 767px) {
+}
+
+/** Tablet **/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: blue !important;
+  }
+
+  .foof,
+  .rollingstones,
+  .damageplan,
+  .kasabian {
+    display: none !important;
+  }
+
+  .recentlyPlayedOptions {
+    position: absolute;
+    top: 490px !important;
+  }
+
+  .recentlyPlayedTxt {
+    position: absolute;
+    top: 440px !important;
+  }
+
+  .card-img-top-recently {
+    width: 100% !important;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+}
+1886
+/** Tablet (landscape) **/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  body {
+    background-color: blue !important;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
 ::-webkit-scrollbar {
   background-color: rgb(34, 28, 28);
 }
@@ -110,6 +153,7 @@ body {
 .createPlaylistTxt {
   position: relative;
   left: 25px;
+  font-weight: bold;
 }
 
 .logoSpotifyHeart {
@@ -123,6 +167,7 @@ body {
 .likedSongsTxt {
   position: relative;
   left: 25px;
+  font-weight: bold;
 }
 .logoInstall {
   position: relative;
@@ -148,6 +193,7 @@ nav {
   background-color: black;
   width: 240px;
   height: 860px;
+  position: fixed;
 }
 
 a {
@@ -175,6 +221,7 @@ p {
 
 .arrows a {
   color: rgb(255, 255, 255) !important;
+  width: 40px;
 }
 .arrows a:hover {
   color: rgb(255, 255, 255) !important;
@@ -183,6 +230,7 @@ p {
 
 .arrows {
   font-size: 40px;
+  width: 80px;
 }
 
 .userSect {
@@ -215,16 +263,16 @@ p {
 
 .goodMorningTxt {
   position: absolute;
-  left: 290px;
-  top: 60px;
+  left: 250px;
+  top: 80px;
   color: white;
   font-size: 30px;
 }
 
 .goodMorningOptions {
   position: absolute;
-  left: 300px;
-  top: 100px;
+  left: 265px;
+  top: 120px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -246,7 +294,7 @@ p {
   position: relative;
   background-color: rgba(70, 69, 69, 0.253) !important;
   height: 255px;
-  width: 93% !important;
+  width: 95% !important;
   padding: 10px;
   border-radius: 4px;
 }
@@ -281,16 +329,16 @@ p {
 
 .recentlyPlayedTxt {
   position: absolute;
-  top: 320px;
-  left: 290px;
+  top: 340px;
+  left: 255px;
   color: white;
   font-size: 30px;
 }
 
 .recentlyPlayedOptions {
   position: absolute;
-  top: 370px;
-  left: 300px;
+  top: 385px;
+  left: 265px;
 }
 
 .card-img-top-recently {
@@ -330,8 +378,8 @@ p {
 
 .showsToTryTxt {
   position: absolute;
-  top: 640px;
-  left: 290px;
+  top: 660px;
+  left: 255px;
   color: white;
   font-size: 30px;
 }
@@ -344,23 +392,25 @@ p {
 
 .showsToTryOptions {
   position: absolute;
-  top: 710px;
-  left: 300px;
+  top: 735px;
+  left: 260px;
   margin-bottom: 1000px;
 }
 
 .seeAllRecently {
   color: white;
   position: absolute;
-  right: 30px;
-  top: 330px;
+  right: 45px;
+  top: 350px;
+  font-weight: bold;
 }
 
 .seeAllShowToTry {
   color: white;
   position: absolute;
-  right: 35px;
-  top: 665px;
+  right: 45px;
+  top: 700px;
+  font-weight: bold;
 }
 
 .footer {
@@ -479,7 +529,8 @@ p {
 }
 
 .slider {
-  fill: green;
+  -webkit-appearance: green;
+  color: green;
 }
 /* Album Page 
 
