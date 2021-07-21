@@ -186,11 +186,14 @@ p {
 }
 
 .userSect {
-  position: absolute;
-  top: 10px;
-  left: 1400px;
+  position: fixed;
+  top: 1vh;
+  right: 1vh;
 }
 
+.col-lg-2 {
+  max-width: 100vh !important;
+}
 .userImg {
   max-width: 50px;
   border-radius: 50%;
@@ -229,7 +232,7 @@ p {
 .card {
   position: relative;
   max-height: 90px !important;
-  width: 290px !important;
+  width: 310px !important;
   background-color: rgba(102, 100, 95, 0.253) !important;
   color: white;
 }
