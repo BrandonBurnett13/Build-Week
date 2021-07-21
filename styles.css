@@ -184,7 +184,7 @@ nav ul {
   height: 500px;
   overflow: hidden;
   overflow-y: scroll;
-  width: 250px;
+  width: 269px;
   max-height: 600px;
   background-color: black;
 }
@@ -341,6 +341,9 @@ p {
   left: 265px;
 }
 
+.card-title: {
+  top: 6px;
+}
 .card-img-top-recently {
   width: 160%;
   border-top-left-radius: calc(0.25rem - 1px);
