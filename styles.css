@@ -176,6 +176,10 @@ p {
 .arrows a {
   color: rgb(255, 255, 255) !important;
 }
+.arrows a:hover {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
+}
 
 .arrows {
   font-size: 40px;
@@ -198,7 +202,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  background-color: black !important;
+  border-radius: 50% !important;
 }
 
 .btndropdown {
@@ -230,11 +234,22 @@ p {
   color: white;
 }
 
+.cardHover:hover {
+  background-color: rgba(128, 128, 128, 0.363);
+  text-decoration: none;
+}
+
 .cardBg {
   position: relative;
-  background-color: rgba(102, 100, 95, 0.253) !important;
-  height: 220px;
-  width: 100px !important;
+  background-color: rgba(83, 82, 81, 0.253) !important;
+  height: 255px;
+  width: 93% !important;
+  padding: 10px;
+  border-radius: 4px;
+}
+.cardBg:hover {
+  text-decoration: none;
+  background-color: rgba(173, 169, 169, 0.363) !important;
 }
 
 .cardTopImg {
@@ -249,10 +264,6 @@ p {
   width: 150px;
   left: -35px;
   font-weight: bold;
-}
-
-.card > recently {
-  background-color: rgba(98, 96, 91, 0.253) !important;
 }
 
 .col-sm {
@@ -315,7 +326,7 @@ p {
 
 .showsToTryTxt {
   position: absolute;
-  top: 600px;
+  top: 640px;
   left: 290px;
   color: white;
   font-size: 30px;
@@ -329,22 +340,23 @@ p {
 
 .showsToTryOptions {
   position: absolute;
-  top: 667px;
+  top: 710px;
   left: 300px;
+  margin-bottom: 1000px;
 }
 
 .seeAllRecently {
   color: white;
   position: absolute;
-  right: 50px;
+  right: 30px;
   top: 330px;
 }
 
 .seeAllShowToTry {
   color: white;
   position: absolute;
-  right: 50px;
-  top: 625px;
+  right: 35px;
+  top: 665px;
 }
 
 .footer {
@@ -386,14 +398,14 @@ p {
 .playerHeart {
   max-height: 20px;
   position: absolute;
-  top: 15px;
+  top: 30px;
   right: 250px;
 }
 
 .playerPages {
   max-height: 20px;
   position: absolute;
-  top: 15px;
+  top: 30px;
   right: 220px;
 }
 
@@ -460,6 +472,10 @@ p {
   position: absolute;
   right: 40px;
   top: 30px;
+}
+
+.slider {
+  fill: green;
 }
 /* Album Page 
 
