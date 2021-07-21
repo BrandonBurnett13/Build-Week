@@ -7,77 +7,163 @@
 }
 
 body {
-  background-color: #300c0c !important;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.7595413165266106) 86%,
+    rgba(69, 2, 2, 0.9444152661064426) 100%
+  );
   overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+.directionButtonLeft {
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+}
+.directionButtonRight {
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.arrowLeft {
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+}
+.arrowRight {
+  position: relative;
+  bottom: 15px;
+  left: 8px;
+}
 .logo {
-  max-width: 110px;
+  position: relative;
+  max-width: 130px;
+  left: 20px;
 }
 .logoHome {
   position: relative;
   top: 10px;
-  left: 5px;
-  max-width: 20px;
-  max-height: 20px;
+  left: 18px;
+  max-width: 30px;
+  max-height: 30px;
 }
+
+.homeTxt {
+  position: relative;
+  left: 15px;
+  top: 5px;
+  font-weight: bold;
+}
+
 .logoSearch {
   position: relative;
-  top: 10px;
-  left: 5px;
+  top: 18px;
+  left: 22px;
   max-width: 20px;
   max-height: 20px;
 }
+
+.searchTxt {
+  position: relative;
+  left: 25px;
+  top: 5px;
+  font-weight: bold;
+}
+
 .logoLibrary {
   position: relative;
-  top: 10px;
-  left: 5px;
+  top: 14px;
+  left: 23px;
   max-width: 20px;
   max-height: 20px;
 }
+
+.libraryTxt {
+  position: relative;
+  left: 25px;
+  top: 5px;
+  font-weight: bold;
+}
+
 .logoPlaylist {
   position: relative;
   top: 10px;
-  left: 5px;
+  left: 23px;
   max-width: 20px;
   max-height: 20px;
 }
+
+.createPlaylistTxt {
+  position: relative;
+  left: 25px;
+}
+
 .logoSpotifyHeart {
   position: relative;
   top: 10px;
-  left: 5px;
+  left: 23px;
   max-width: 20px;
   max-height: 20px;
+}
+
+.likedSongsTxt {
+  position: relative;
+  left: 25px;
 }
 .logoInstall {
   position: relative;
-  top: 510px;
-  left: 5px;
+  top: 520px;
+  left: 23px;
   max-width: 20px;
   max-height: 20px;
-}
-nav {
-  margin-top: 20px;
 }
 
 nav ul {
   position: absolute;
-  left: -40px;
-  top: 250px;
+  left: -30px;
+  top: 320px;
   height: 500px;
   overflow: hidden;
   overflow-y: scroll;
-  width: 300px;
+  width: 250px;
+  max-height: 600px;
+  background-color: black;
+}
+
+nav {
+  background-color: black;
+  width: 240px;
+  height: 860px;
 }
 
 a {
-  color: grey !important;
+  color: rgb(192, 192, 192) !important;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
 .install {
   position: absolute;
-  left: 15px;
-  top: 750px;
+  left: 35px;
+  top: 815px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .topNav {
@@ -89,6 +175,10 @@ a {
 
 .arrows a {
   color: rgb(255, 255, 255) !important;
+}
+.arrows a:hover {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
 }
 
 .arrows {
@@ -112,7 +202,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  background-color: black !important;
+  border-radius: 50% !important;
 }
 
 .btndropdown {
@@ -138,10 +228,28 @@ a {
 
 .card {
   position: relative;
-  max-height: 100px !important;
-  width: 300px !important;
-  background-color: rgba(98, 96, 91, 0.253) !important;
+  max-height: 90px !important;
+  width: 290px !important;
+  background-color: rgba(102, 100, 95, 0.253) !important;
   color: white;
+}
+
+.cardHover:hover {
+  background-color: rgba(163, 163, 163, 0.363);
+  text-decoration: none;
+}
+
+.cardBg {
+  position: relative;
+  background-color: rgba(70, 69, 69, 0.253) !important;
+  height: 255px;
+  width: 93% !important;
+  padding: 10px;
+  border-radius: 4px;
+}
+.cardBg:hover {
+  text-decoration: none;
+  background-color: rgba(83, 81, 81, 0.363) !important;
 }
 
 .cardTopImg {
@@ -153,6 +261,9 @@ a {
   position: relative;
   top: 35%;
   right: 30%;
+  width: 150px;
+  left: -35px;
+  font-weight: bold;
 }
 
 .col-sm {
@@ -187,6 +298,7 @@ a {
 
 .card-text-recently {
   color: grey;
+  margin-right: 10px;
 }
 
 .card-body-recently {
@@ -215,7 +327,7 @@ a {
 
 .showsToTryTxt {
   position: absolute;
-  top: 620px;
+  top: 640px;
   left: 290px;
   color: white;
   font-size: 30px;
@@ -229,20 +341,146 @@ a {
 
 .showsToTryOptions {
   position: absolute;
-  top: 700px;
+  top: 710px;
   left: 300px;
+  margin-bottom: 1000px;
 }
 
 .seeAllRecently {
   color: white;
   position: absolute;
-  right: 50px;
-  top: 320px;
+  right: 30px;
+  top: 330px;
 }
 
 .seeAllShowToTry {
   color: white;
   position: absolute;
-  right: 50px;
-  top: 650px;
+  right: 35px;
+  top: 665px;
 }
+
+.footer {
+  position: fixed !important;
+  left: 0;
+  height: 80px;
+  bottom: 0 !important;
+  width: 100%;
+  background-color: rgb(22, 20, 20);
+  color: white !important;
+  text-align: center;
+}
+
+.playerImg {
+  position: absolute;
+  max-height: 50px;
+  top: 15px;
+  left: 35px;
+  margin-bottom: 3px;
+}
+
+.playerTrack {
+  position: relative;
+  left: 70px;
+  top: 5px;
+}
+
+.playerIcons {
+  position: relative;
+  left: 330px;
+}
+
+.artistName {
+  color: grey;
+  position: absolute;
+  left: 8px;
+}
+
+.playerHeart {
+  max-height: 20px;
+  position: absolute;
+  top: 30px;
+  right: 250px;
+}
+
+.playerPages {
+  max-height: 20px;
+  position: absolute;
+  top: 30px;
+  right: 220px;
+}
+
+.playButton {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  max-height: 40px;
+}
+
+.rewindButton {
+  position: absolute;
+  left: 47%;
+  top: 20px;
+  max-height: 20px;
+}
+
+.forwardButton {
+  position: absolute;
+  left: 54%;
+  top: 20px;
+  max-height: 20px;
+}
+
+.startTime {
+  position: absolute;
+  left: 500px;
+}
+
+.progressBar {
+  position: absolute;
+  left: 600px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.endTime {
+  position: absolute;
+  right: 500px;
+}
+
+.playlistPlayButton {
+  position: absolute;
+  right: 240px;
+  top: 28px;
+  height: 25px;
+}
+
+.playlistDevicesButton {
+  position: absolute;
+  right: 210px;
+  top: 30px;
+  height: 20px;
+}
+
+.playlistVolButton {
+  position: absolute;
+  right: 180px;
+  top: 30px;
+  height: 20px;
+}
+
+.slidecontainer {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+
+.slider {
+  fill: green;
+}
+/* Album Page 
+
+.main{
+  /* background-image: linear-gradient( 179.4deg,  rgba(132,56,122,1) 14.6%, rgba(190,24,49,1) 104.7% ); */
+/* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+} */
