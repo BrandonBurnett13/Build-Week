@@ -7,96 +7,119 @@
 }
 
 body {
-  background-color: #1b1119 !important;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 0, 0, 0.7595413165266106) 86%,
+    rgba(69, 2, 2, 0.9444152661064426) 100%
+  );
   overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .logo {
   position: relative;
   max-width: 130px;
-  left: 45px;
+  left: 20px;
 }
 .logoHome {
   position: relative;
   top: 10px;
-  left: 45px;
-  max-width: 20px;
-  max-height: 20px;
+  left: 18px;
+  max-width: 30px;
+  max-height: 30px;
 }
 
 .homeTxt {
   position: relative;
-  left: 35px;
+  left: 15px;
+  top: 5px;
+  font-weight: bold;
 }
 
 .logoSearch {
   position: relative;
-  top: 10px;
-  left: 45px;
+  top: 18px;
+  left: 22px;
   max-width: 20px;
   max-height: 20px;
 }
 
 .searchTxt {
   position: relative;
-  left: 35px;
+  left: 25px;
+  top: 5px;
+  font-weight: bold;
 }
 
 .logoLibrary {
   position: relative;
-  top: 10px;
-  left: 45px;
+  top: 14px;
+  left: 23px;
   max-width: 20px;
   max-height: 20px;
 }
 
 .libraryTxt {
   position: relative;
-  left: 35px;
+  left: 25px;
+  top: 5px;
+  font-weight: bold;
 }
 
 .logoPlaylist {
   position: relative;
   top: 10px;
-  left: 45px;
+  left: 23px;
   max-width: 20px;
   max-height: 20px;
 }
 
 .createPlaylistTxt {
   position: relative;
-  left: 35px;
+  left: 25px;
 }
 
 .logoSpotifyHeart {
   position: relative;
   top: 10px;
-  left: 45px;
+  left: 23px;
   max-width: 20px;
   max-height: 20px;
 }
 
 .likedSongsTxt {
   position: relative;
-  left: 35px;
+  left: 25px;
 }
 .logoInstall {
   position: relative;
-  top: 515px;
-  left: 45px;
+  top: 520px;
+  left: 23px;
   max-width: 20px;
   max-height: 20px;
 }
 
 nav ul {
   position: absolute;
-  left: -10px;
+  left: -30px;
   top: 320px;
   height: 500px;
   overflow: hidden;
   overflow-y: scroll;
-  width: 300px;
+  width: 250px;
   max-height: 600px;
+  background-color: black;
+}
+
+nav {
+  background-color: black;
+  width: 240px;
+  height: 860px;
 }
 
 a {
@@ -109,8 +132,10 @@ p {
 }
 .install {
   position: absolute;
-  left: 55px;
+  left: 35px;
   top: 815px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .topNav {
@@ -359,6 +384,8 @@ p {
 .progressBar {
   position: absolute;
   left: 600px;
+  font-weight: bold;
+  font-size: 10px;
 }
 
 .endTime {
