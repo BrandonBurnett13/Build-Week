@@ -75,8 +75,9 @@ a, a:hover, a:focus {
     color: #fff;
     background: #000000;
 }
-ul ul a {
-    font-size: 0.9em;
+ul a {
+    font-size: 0.2em;
     padding-left: 30px ;
     background: #000000;
 }
+

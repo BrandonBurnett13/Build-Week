@@ -22,29 +22,56 @@
 
         <div class="wrapper">
 
+
+            <!-- sidebar -->
+
+
             <nav id="sidebar">
                 <div class="sidebar-header">
                     <img src="./Assets/Spotify_Logo_RGB_White.png" class="img-fluid text-light" width="100px" alt="">
 
 
                     <ul class="list-unstyled components">
-                        <li class="active">
-                            <a href="#" data-toggle="collapse" aria-expanded="false"> <i class="fas fa-home"></i>
-                                Home</a>
+
+                        <li class="d-flex flex-wrap">
+                            <i class="fas fa-home align-self-center" width="20px" height="20px"></i>
+                            <a href="#" class="ml-2"> Home</a>
 
                         </li>
-                        <li>
-                            <a href="#"><i class="fas fa-search"></i> Search</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-grip-lines-vertical"></i> Your Library</a>
-                        </li>
-                        <li>
 
-                            <a href="#"><i class="fab fa-gratipay"></i> Liked Songs</a>
+                        <li class="d-flex flex-wrap">
+                            <i class="fas fa-search align-self-center" width="20px" height="20px"></i>
+                            <a href="#" class="ml-2"> Search</a>
+
                         </li>
-                        <hr class="border-bottom text-muted">
-                        <div class="text-muted" style="font-size: 12px;">
+
+                        <li class="d-flex flex-wrap">
+
+                            <img src="./Assets/libraryicon.png" alt="" width="20px" height="20px"
+                                class="align-self-center"><a href="#" class="ml-2"> Your Library</a>
+
+                        </li>
+
+                        <li class="d-flex flex-wrap mt-4">
+
+                            <img src="./Assets/createicon.png" alt="" width="20px" height="20px"
+                                class="align-self-center"><a href="#" class="ml-2"> Create
+                                Playlist</a>
+
+                        </li>
+                        <li class="d-flex flex-wrap">
+
+                            <img src="./Assets/Liked song icon.png" alt="" width="20px" height="20px"
+                                class="align-self-center"><a href="#" class="ml-2"> Liked Songs</a>
+
+                        </li>
+
+
+
+                        <hr class="border-bottom border-dark">
+
+
+                        <div class="text-muted" style="font-size: 11px; overflow: auto; height: 325px;">
 
 
                             <li>
@@ -57,11 +84,24 @@
                                 <a class="nav-link" href="#">In Love With You - Erykah Blahdeyblah</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="#">This Is Rod Stewart</a>
+
+
+                            <li class="d-flex flex-wrap">
+
+                                <a href="#" class="nav-link"> This Is Rod Stewart</a> <img src="./Assets/persons.png"
+                                    alt="" width="20px" height="25px" class="align-self-center ml-5">
+
                             </li>
-                            <li>
-                                <a class="nav-link" href="#">FRANCHISE ft. Young Thug</a>
+
+                            <li class="d-flex flex-wrap">
+
+                                <a href="#" class="nav-link"> FRANCHISE ft. Young Thug</a> <img
+                                    src="./Assets/persons.png" alt="" width="20px" height="25px"
+                                    class="align-self-center ml-1">
+
                             </li>
+
+
                             <li>
                                 <a class="nav-link" href="#">Your Top Songs 2019</a>
                             </li>
@@ -101,14 +141,16 @@
                         </div>
                     </ul>
 
+                    <a class="nav-link text-muted" href="#" style="font-size: 14px;"><i
+                            class="fas fa-arrow-circle-down text-muted"></i>
+                        Install
+                        App</a>
 
-                    <div class="d-flex">
-                        <a class="nav-link install" href="#"><i class="fas fa-arrow-circle-down"></i> Install App</a>
-                    </div>
             </nav>
 
 
 
+            <!-- user/jumbotron -->
 
 
             <div class="container-fluid text-light">
@@ -154,6 +196,12 @@
                                 min</span></h6>
                     </div>
                 </div>
+
+
+
+                <!-- Track list -->
+
+
                 <div class="p-2"
                     style="background-image: linear-gradient(to top, #121212 0%, #36122b 100%); opacity: 0.9;">
                     <div class="d-flex justify-content-start">
@@ -268,6 +316,49 @@
                 </div>
             </div>
 
+        </div>
+        <div class="fixed-bottom d-flex justify-content-between p-3" style="background-color:#191919;">
+
+            <div class="d-flex flex-wrap align-items-center">
+                <div>
+                    <img src="./Assets/trackpic.png" alt="" width="50px" height="50px" class="">
+                </div>
+
+                <div class="d-flex flex-column align-self-center">
+                    <span class="ml-3 text-light" style="font-size: 10px;">Another One Bites The Dust - Remastered
+                        2011</span>
+                    <span class="text-muted mt-0 ml-3" style="font-size: 9px;">Queen</span>
+                </div>
+                <div class="align-items-center ml-3">
+                    <i class="far fa-heart text-muted" style="font-size: 13px;"></i>
+                    <img src="./Assets/Tracklibrary.png" width="15px" height="15px" alt=""
+                        class="m-2 align-self-center">
+                </div>
+
+            </div>
+            <div class="d-flex flex-column text-muted">
+                <div class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-random m-2" style="font-size: 12px;"></i>
+                    <i class="fas fa-step-backward m-2 text-light"></i>
+                    <i class="fas fa-play-circle m-2 text-light" style="font-size: 30px;"></i>
+                    <i class="fas fa-step-forward m-2 text-light"></i>
+                    <img src="./Assets/repeat.png" width="15px" height="15px" alt="" class="m-2">
+
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+
+                    <span style="font-size: 10px;">0:12 </span><img src="./Assets/player.png" width="500px"
+                        height="10px" alt=""><span style="font-size: 10px;">3:34</span>
+                </div>
+
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="fas fa-bars text-muted m-2 align-self-center" style="font-size: 10px;"></i>
+                <img src="./Assets/speaker.png" width="15px" height="15px" alt="" class="m-2 align-self-center">
+                <i class="fas fa-volume-up text-muted m-2 align-self-center" style="font-size: 10px;"></i>
+                <img src="./Assets/Volume.png" width="80px" height="10px" alt="" class="m-2 align-self-center">
+
+            </div>
         </div>
     </div>
 
