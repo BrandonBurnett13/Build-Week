@@ -7,43 +7,142 @@
     <link rel="stylesheet" href="styleBB.css">
     <title>Artist Page</title>
   </head>
-  <body class="row">
-    <div class="sidebar">
-    <nav class="nav flex-column">
-      <img class="logo" src="/Assets/Spotify_Logo_RGB_White.png" role="banner">
-        <a class="nav-link" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
-          <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-        </svg> Active </a>
-        <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-        </svg> Link</a>
-        <a class="nav-link" href="#"> <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z" fill="currentColor"></path></svg>Link</a>
 
-    <div class="container">
-      <div class="createPlayList">
-        
-        <button type="button" class="btn btn-link">Link</button>
-      </div>
-      <button type="button" class="btn btn-link">Link</button>
-    </div>
-      </nav>
-    </div>
+  <nav id="sidebar">
+    <div class="sidebar-header">
+        <img src="./Assets/Spotify_Logo_RGB_White.png" class="img-fluid text-light" width="100px" alt="">
+
+
+        <ul class="list-unstyled components">
+
+            <li class="d-flex flex-wrap">
+                <i class="fas fa-home align-self-center" width="20px" height="20px"></i>
+                <a href="#" class="ml-2"> Home</a>
+
+            </li>
+
+            <li class="d-flex flex-wrap">
+                <i class="fas fa-search align-self-center" width="20px" height="20px"></i>
+                <a href="#" class="ml-2"> Search</a>
+
+            </li>
+
+            <li class="d-flex flex-wrap">
+
+                <img src="./Assets/libraryicon.png" alt="" width="20px" height="20px"
+                    class="align-self-center"><a href="#" class="ml-2"> Your Library</a>
+
+            </li>
+
+            <li class="d-flex flex-wrap mt-4">
+
+                <img src="./Assets/createicon.png" alt="" width="20px" height="20px"
+                    class="align-self-center"><a href="#" class="ml-2"> Create
+                    Playlist</a>
+
+            </li>
+            <li class="d-flex flex-wrap">
+
+                <img src="./Assets/Liked song icon.png" alt="" width="20px" height="20px"
+                    class="align-self-center"><a href="#" class="ml-2"> Liked Songs</a>
+
+            </li>
+
+
+
+            <hr class="border-bottom border-dark">
+
+
+            <div class="text-muted" style="font-size: 11px; overflow: auto; height: 325px;">
+
+
+                <li>
+                    <a class="nav-link" href="#">Funky Heavy Bluesy</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Your Top Songs 2020</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">In Love With You - Erykah Blahdeyblah</a>
+                </li>
+                <li>
+
+
+                <li class="d-flex flex-wrap">
+
+                    <a href="#" class="nav-link"> This Is Rod Stewart</a> <img src="./Assets/persons.png"
+                        alt="" width="20px" height="25px" class="align-self-center ml-5">
+
+                </li>
+
+                <li class="d-flex flex-wrap">
+
+                    <a href="#" class="nav-link"> FRANCHISE ft. Young Thug</a> <img
+                        src="./Assets/persons.png" alt="" width="20px" height="25px"
+                        class="align-self-center ml-1">
+
+                </li>
+
+
+                <li>
+                    <a class="nav-link" href="#">Your Top Songs 2019</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Pallaggio</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">This Is Joe Bonamassa</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">June 19</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Jack 30th Party 2</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Jack 30th Party</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">This Is Opeth</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Metal Ballads</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">New Playlist</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Your Top Songs 2018</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Jazz Classics</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Blues Classics</a>
+                </li>
+            </div>
+        </ul>
+
+        <a class="nav-link text-muted" href="#" style="font-size: 14px;"><i
+                class="fas fa-arrow-circle-down text-muted"></i>
+            Install
+            App</a>
+
+</nav>
     <div class="col">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
+      <div class="row-cols-1">
+        <img src="http://highlightmagazine.net/wp-content/uploads/2013/01/fall-out-boy.jpg" width="100%" height="500px">
+        
       </div>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group btn-group-lg mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">Play</button>
           </div>
           <div class="btn-group btn-group-lg mr-2" role="group" aria-label="Second group">
             <button type="button" class="btn btn-secondary">Follow</button>
           </div>
           <div class="btn-group btn-group-lg" role="group" aria-label="Third group">
-            <button type="button" class="btn btn-secondary">8</button>
+            <button type="button" class="btn btn-secondary">...</button>
           </div>
         </div>
        <h4>Popular</h4>
@@ -52,33 +151,33 @@
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>Centuries</td>
+            <td>730,872,101</td>
+            <td>3:48</td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td><span>Summer Days (feat.Macklemore & Patrick Stump of Fall out Boy)</span></td>
+            <td>468,531,733</td>
+            <td>2:43</td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <td>Suagar, We're Going Down</td>
+            <td>472,847,750</td>
+            <td>3:49</td>
           </tr>
           <tr>
             <th scope="row">4</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <td>Thnks fr th Mmrs</td>
+            <td>385,818,742</td>
+            <td>3:23</td>
           </tr>
           <tr>
             <th scope="row">5</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <td>Dance, Dance</td>
+            <td>301,006,963</td>
+            <td>3:00</td>
           </tr>
         </tbody>
       </table>
@@ -124,7 +223,6 @@
           </div>
         </div>
       </div>
-
         <h4>Singles and EPs</h4>
         <h6>See Discography</h6>
         <div class="row">
