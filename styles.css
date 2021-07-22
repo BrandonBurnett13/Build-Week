@@ -1,45 +1,115 @@
-/** Mobile **/
-@media only screen and (max-width: 767px),
-  only screen and (max-device-width: 767px) {
-}
-
-/** Tablet **/
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 1900px) {
   body {
-    background-color: blue !important;
+    background-color: rgb(189, 8, 8) !important;
   }
 
-  .foof,
+  .card {
+    max-width: 288px !important;
+  }
+}
+
+@media only screen and (min-width: 1460px) and (max-width: 1770px) {
+  body {
+    background-color: rgb(14, 211, 31) !important;
+  }
   .rollingstones,
-  .damageplan,
-  .kasabian {
+  .foof {
     display: none !important;
   }
-
-  .recentlyPlayedOptions {
-    position: absolute;
-    top: 490px !important;
-  }
-
-  .recentlyPlayedTxt {
-    position: absolute;
-    top: 440px !important;
-  }
-
-  .card-img-top-recently {
-    width: 100% !important;
-    border-top-left-radius: calc(0.25rem - 1px);
-    border-top-right-radius: calc(0.25rem - 1px);
-  }
 }
-1886
-/** Tablet (landscape) **/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 800px) and (max-width: 1460px) {
   body {
-    background-color: blue !important;
+    background-color: rgb(14, 211, 31) !important;
+  }
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie {
+    display: none !important;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 1280px) and (max-width: 1460px) {
+  body {
+    background-color: rgb(236, 232, 12) !important;
+  }
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1260px) {
+  body {
+    background-color: rgb(236, 232, 12) !important;
+  }
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie {
+    display: none !important;
+  }
+  .card {
+    max-width: 288px !important;
+  }
+}
+@media only screen and (min-width: 1245px) and (max-width: 1380px) {
+  body {
+    background-color: rgb(238, 6, 188) !important;
+  }
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie {
+    display: none !important;
+  }
+  .card {
+    max-width: 288px !important;
+  }
+}
+@media only screen and (min-width: 1050px) and (max-width: 1545px) {
+  body {
+    background-color: rgb(8, 11, 211) !important;
+  }
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie {
+    display: none !important;
+  }
+  .card {
+    max-width: 235px !important;
+  }
+
+  .cardText {
+    left: 100px !important;
+    top: -60px !important;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 1055px) {
+  body {
+    background-color: rgb(211, 99, 8) !important;
+  }
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie,
+  .damageplan,
+  .skindred {
+    display: none !important;
+  }
+  .card {
+    max-width: 240px !important;
+  }
+
+  .cardText {
+    left: 100px !important;
+    top: -60px !important;
+  }
+
+  .armstrong {
+    font-size: 79%;
+  }
 }
 ::-webkit-scrollbar {
   background-color: rgb(34, 28, 28);
