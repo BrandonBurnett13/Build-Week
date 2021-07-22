@@ -8,127 +8,29 @@
     <title>Artist Page</title>
   </head>
 
-  <nav id="sidebar">
-    <div class="sidebar-header">
-        <img src="./Assets/Spotify_Logo_RGB_White.png" class="img-fluid text-light" width="100px" alt="">
+  <body class="row">
+    <div class="sidebar">
+    <nav class="nav flex-column">
+      <img class="logo" src="/Assets/Spotify_Logo_RGB_White.png" role="banner">
+        <a class="nav-link" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+          <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+        </svg> Home </a>
+        <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>Search</a>
+        <a class="nav-link" href="#"> <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z" fill="currentColor"></path></svg>Your Library</a>
 
-
-        <ul class="list-unstyled components">
-
-            <li class="d-flex flex-wrap">
-                <i class="fas fa-home align-self-center" width="20px" height="20px"></i>
-                <a href="#" class="ml-2"> Home</a>
-
-            </li>
-
-            <li class="d-flex flex-wrap">
-                <i class="fas fa-search align-self-center" width="20px" height="20px"></i>
-                <a href="#" class="ml-2"> Search</a>
-
-            </li>
-
-            <li class="d-flex flex-wrap">
-
-                <img src="./Assets/libraryicon.png" alt="" width="20px" height="20px"
-                    class="align-self-center"><a href="#" class="ml-2"> Your Library</a>
-
-            </li>
-
-            <li class="d-flex flex-wrap mt-4">
-
-                <img src="./Assets/createicon.png" alt="" width="20px" height="20px"
-                    class="align-self-center"><a href="#" class="ml-2"> Create
-                    Playlist</a>
-
-            </li>
-            <li class="d-flex flex-wrap">
-
-                <img src="./Assets/Liked song icon.png" alt="" width="20px" height="20px"
-                    class="align-self-center"><a href="#" class="ml-2"> Liked Songs</a>
-
-            </li>
-
-
-
-            <hr class="border-bottom border-dark">
-
-
-            <div class="text-muted" style="font-size: 11px; overflow: auto; height: 325px;">
-
-
-                <li>
-                    <a class="nav-link" href="#">Funky Heavy Bluesy</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Your Top Songs 2020</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">In Love With You - Erykah Blahdeyblah</a>
-                </li>
-                <li>
-
-
-                <li class="d-flex flex-wrap">
-
-                    <a href="#" class="nav-link"> This Is Rod Stewart</a> <img src="./Assets/persons.png"
-                        alt="" width="20px" height="25px" class="align-self-center ml-5">
-
-                </li>
-
-                <li class="d-flex flex-wrap">
-
-                    <a href="#" class="nav-link"> FRANCHISE ft. Young Thug</a> <img
-                        src="./Assets/persons.png" alt="" width="20px" height="25px"
-                        class="align-self-center ml-1">
-
-                </li>
-
-
-                <li>
-                    <a class="nav-link" href="#">Your Top Songs 2019</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Pallaggio</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">This Is Joe Bonamassa</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">June 19</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Jack 30th Party 2</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Jack 30th Party</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">This Is Opeth</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Metal Ballads</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">New Playlist</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Your Top Songs 2018</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Jazz Classics</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Blues Classics</a>
-                </li>
-            </div>
-        </ul>
-
-        <a class="nav-link text-muted" href="#" style="font-size: 14px;"><i
-                class="fas fa-arrow-circle-down text-muted"></i>
-            Install
-            App</a>
-
-</nav>
+    <div class="container">
+      <div class="createPlayList">
+        <a class="nav-link" href="#"><svg xmlns="/Assets/output-onlinepngtool (3)" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg> Create Playlist</a> <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg> Liked Songs</a>
+    </div>
+    
+      </nav>
+    </div>
     <div class="col">
       <div class="row-cols-1">
         <img src="http://highlightmagazine.net/wp-content/uploads/2013/01/fall-out-boy.jpg" width="100%" height="500px">
@@ -136,13 +38,13 @@
       </div>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group btn-group-lg mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">Play</button>
+            <button type="button" class="btn btn-success btn-circle btn-sm">Play</button>
           </div>
           <div class="btn-group btn-group-lg mr-2" role="group" aria-label="Second group">
-            <button type="button" class="btn btn-secondary">Follow</button>
+            <button type="button" class="btn btn-outline-secondary">Follow</button>
           </div>
           <div class="btn-group btn-group-lg" role="group" aria-label="Third group">
-            <button type="button" class="btn btn-secondary">...</button>
+            <button type="button" class="btn btn-link">...</button>
           </div>
         </div>
        <h4>Popular</h4>
@@ -150,7 +52,8 @@
        <table class="table">
         <tbody>
           <tr>
-            <th scope="row">1</th>
+            <th scope="row"><audio id="sound1" src="/sounds/Centuries_-_Fall_Out_Boy_(Lyrics).mp3" preload="auto"></audio>
+              <button onclick="document.getElementById('sound1').play();">1</button></th>
             <td>Centuries</td>
             <td>730,872,101</td>
             <td>3:48</td>
@@ -184,300 +87,249 @@
 
       <h4>Albums</h4>
       <h6>See Discography</h6>
-      <div class="row">
-        <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="card">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
+      <div class="row" >
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e023be928a586b2dc1ba2190148" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Believers Never Die <br> 2019 • Album</p>
           </div>
         </div>
-        <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-          <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e0250bd47cf6d44bddcd546a951" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">MANIA <br> 2018 • Album</p>
           </div>
         </div>
-        <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-          <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e02e82798cec1ab46dbc1c1e21c" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Make America Psycho Again <br> 2015 • Album </p>
           </div>
         </div>
-        <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-          <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e023cf1c1dbcfa3f1ab7282719b" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Amrican Beauty <br> 2015 • Album</p>
           </div>
         </div>
-        <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-          <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e0261ed8f8d9b7ce9c1b7710812" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Save Rock And Roll <br> 2013 • Album</p>
           </div>
         </div>
       </div>
-        <h4>Singles and EPs</h4>
-        <h6>See Discography</h6>
-        <div class="row">
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card">
-              <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                  content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-    </div>
-
-    <h4>Compilataions</h4>
-        <h6>See Discography</h6>
-        <div class="row">
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card">
-              <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                  content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h4>Featuring Fall Out Boy</h4>
-        <h6>See All</h6>
-        <div class="row">
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card">
-              <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                  content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-    </div>
-
-    <h4>Fans also like</h4> <h6>See All</h6>
-        <div class="row">
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card">
-              <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                  content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-    </div>
-
-    <h4>Appears On</h4>
-        <h6>See All</h6>
-        <div class="row">
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card">
-              <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                  content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-          <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-    </div>
-
-    <h4>Artist Playlists</h4>
-    <div class="row">
-      <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="card">
-          <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
+      <h4>Singles and EPs</h4>
+      <h6>See Discography</h6>
+      <div class="row" >
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e02d399e006521edcd5d2e3e261" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">hand crushed by a mallet (Remix) [feat. Fall Out Boy, Craig Owens, Nicole Dollanganger] <br> 2020 • Single</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e0285df7b8e4cfe789fffe85364" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy) [Remixes] <br> 2019 • Single</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e024d4212a6674dd533dc8c03f5" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Church <br> 2019 • Single </p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e02d7658a5bf66a2f3f11878bdf" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy) <br> 2019 • Single</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e029067de29733d1ecf1b87e583" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">I've Been Waiting (w/ ILoveMakonnen & Fall Out Boy) <br> 2019 • Single </p>
           </div>
         </div>
       </div>
-      <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-        <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-        </div>
-      </div>
-      <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-        <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-        </div>
-      </div>
-    </div>
 
-      <h4>Discovered On</h4>
+      <h4>Compilations</h4>
+      <h6>See Discography</h6>
+      <div class="row" >
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e02cecf2292d7fcd4b269cc736f" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Believers Never Die - Greatest Hits <br> 2009 • Compilation</p>
+          </div>
+        </div>
+      </div>  
+
+      <h4>Featuring Fall Out Boy</h4>
       <h6>See All</h6>
-      <div class="row">
-        <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="card">
-            <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-          <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
+      <div class="row" >
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67706f000000020aea77f27f8064c063c3c008" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">This is Fall Out Boy <br> The best of fall out boy in one playlist</p>
           </div>
         </div>
-        <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-          <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
+        <div class="card" style='width: 15%'>
+          <img src="https://seeded-session-images.scdn.co/v1/img/artist/4UXqAaa6dQYAk18Lv7PEgX/en" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Fall out Boy Radio <br> By Spotify</p>
           </div>
         </div>
-        <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-          <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67706f0000000284821b5b78f24f6ed3bea9b0" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Diney Hits <br> All of your favourite disney hits</p>
           </div>
         </div>
-        <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
-          <img src="https://via.placeholder.com/250x150" class="card-img-top" alt="...">
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67706f000000022cdb0982697cc0ae43b1b5b6" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">00's Rock Anthems <br> These songs rocked the 00's </p>
           </div>
         </div>
-  </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67706f000000024a2afca194d4819c57201bc3" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Guilty Pleasures <br> Embrace your secret favourites.</p>
+          </div>
+        </div>
+      </div>
 
+      <h4>Fans also like</h4>
+      <h6>See All</h6>
+      <div class="row" >
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab6761610000f17884776fe119fa6503fdffb0f8" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Panic! At The Disco <br> Artist </p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab6761610000f17893df0b6ad66b7ea531d445f3" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">My Chemical Romance <br> Artist</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab6761610000f1786aa4d0d5295afc0b7bacec49" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">All Time Low <br> Artist </p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab6761610000f178b57332e3fc2b97bb33577e65" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">The All American Refjects <br> Artist</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab6761610000f1785769c8fcb7cb9e65c7eb6b72" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">We The Kings <br> Artist </p>
+          </div>
+        </div>
+      </div>
+
+      <h4>Appears On</h4>
+      <h6>See All</h6>
+      <div class="row" >
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e02f91a3040f0be854026ad2dd0" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">1000 Gecs And The Tree Of Clues <br> 2020 • Album</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e02aed4808eac27b70ba532f0e4" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Ghostbusters <br> 2016 • Album</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e029d5a692b7a70508595e944ba" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">2019 Remixed <br> 2019 • Album</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e024d005d6881d80313c1127580" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Goodbye Yellow Brick Road (40th Anniversary Celebration / Super Deluxe) <br> 1975 • Album</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67616d00001e02053bc07685928474ed179098" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Throwback Hits <br> 2020 • Album</p>
+          </div>
+        </div>
+      </div>
+
+      <h4>Artist Playlists</h4>
+      <div class="row" >
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67706c0000da84a7de785ac72f976192e3fea1" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Hella Mega Tour</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67706c0000da840e80362a0396d1acf979a947" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Fall Out Boy: Music For Your Future Self</p>
+          </div>
+        </div>
+        <div class="card" style='width: 15%'>
+          <img src="https://i.scdn.co/image/ab67706c0000da84fca63759e8d892e6972e1998" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Fall Out Boy Discography</p>
+          </div>
+        </div>
+    </div>
+
+    <h4>Discovered On</h4>
+    <h6>See All</h6>
+    <div class="row" >
+      <div class="card" style='width: 15%'>
+        <img src="https://i.scdn.co/image/ab67706f000000022cdb0982697cc0ae43b1b5b6" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">00s Rock Anthems</p>
+        </div>
+      </div>
+      <div class="card" style='width: 15%'>
+        <img src="https://i.scdn.co/image/ab67706f0000000262822373d6fce52feea1501c" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Pop Punk Powerhouses</p>
+        </div>
+      </div>
+      <div class="card" style='width: 15%'>
+        <img src="https://i.scdn.co/image/ab67706f000000022035dd6c9268b001a79f7866" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">All Out 00s</p>
+        </div>
+      </div>
+      <div class="card" style='width: 15%'>
+        <img src="https://i.scdn.co/image/ab67706f0000000284821b5b78f24f6ed3bea9b0" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Disney Hits</p>
+        </div>
+      </div>
+      <div class="card" style='width: 15%'>
+        <img src="https://i.scdn.co/image/ab67706f000000026f7d51cc6d68e079638d5c04" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Pure Pop Punk</p>
+        </div>
+      </div>
+    </div>
   <h4>About</h4>
   
   <button class="btn btn-default">
-    <img src="https://via.placeholder.com/700x500"/>
-    month listeners 
+    <img src="https://i.scdn.co/image/8d6f2d9bce6447934a1b78ac75d299164f2f9dca"/>
   </button>
     <div class="row" style="max-width: 70%;">
       <div class="col-6">
