@@ -341,8 +341,9 @@ p {
   left: 265px;
 }
 
-.card-title: {
-  top: 6px;
+.card-title {
+  position: relative;
+  top: 5px;
 }
 .card-img-top-recently {
   width: 160%;
