@@ -314,7 +314,7 @@ p {
   max-width: 100vh !important;
 }
 .userImg {
-  max-width: 50px;
+  max-width: 25px;
   border-radius: 50%;
 }
 
@@ -401,7 +401,7 @@ p {
 
 .cardTopImg {
   max-width: 90px;
-  height: 90px !important;
+  height: 85px !important;
 }
 
 .cardText {
