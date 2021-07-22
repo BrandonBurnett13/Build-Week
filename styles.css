@@ -13,7 +13,8 @@
     background-color: rgb(14, 211, 31) !important;
   }
   .rollingstones,
-  .foof {
+  .foof,
+  .qotsa {
     display: none !important;
   }
 }

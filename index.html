@@ -139,7 +139,7 @@
     <div class="container-fluid goodMorningOptions">
       <div class="row row-cols-5">
         <div class="col-sm col-md-2 col-lg-2 d-flex">
-          <a class="cardHover louis" href="#"><div class="card">
+          <a onclick="audio.play ( )" class="cardHover louis" href="#"><div class="card">
             <div class="row">
               <div class="col">
                 <img
@@ -177,7 +177,7 @@
         </div>
       </a>
         <div class="col-sm col-md-2 col-lg-2 d-flex">
-          <a class="cardHover beatles" href="#"><div class="card">
+          <a onclick="audio2.play ( )"class="cardHover beatles" href="#"><div class="card">
             <div class="row">
               <div class="col">
                 <img
@@ -541,7 +541,7 @@
           </div>
         </div></a>
         <div class="col-sm col- d-flex">
-          <a class="cardBg" href="#"><div class="card" style="width: 100px !important">
+          <a class="cardBg qotsa" href="#"><div class="card" style="width: 100px !important">
             <img
               class="card-img-top-recently"
               src="/Assets/gotsa.png"
@@ -581,6 +581,14 @@
         
       </div>
     </footer>
-    
+    <script>
+      const audio = new Audio("/assets/louis.wav");
+      audio.oncanplaythrough = function ( ) { }
+      audio.onended = function ( ) { };
+
+      const audio2 = new Audio("/assets/iron.wav");
+      audio.oncanplaythrough = function ( ) { }
+      audio.onended = function ( ) { };
+      </script>
   </body>
 </html>
