@@ -166,21 +166,21 @@
   }
 
   .korn {
-    position: fixed;
-    left: 270px;
-    top: 225px !important;
+    position: relative;
+    right:937px;
+    top: 95px !important;
   }
 
   .skindred {
-    position: fixed;
-    left: 516px;
-    top: 225px !important;
+    position: relative;
+    left:245px;
+    top: -5px !important;
   }
 
   .damageplan {
-    position: fixed;
-    left: 760px;
-    top: 225px !important;
+    position: relative;
+    left: 245px;
+    top: -5px !important;
   }
 
   .kasabian {
