@@ -1,6 +1,8 @@
 
 body {
     background-image: linear-gradient(to top, #121212 0%, #700e58 100%);
+    height: 100vh;
+    box-sizing: border-box;
 } 
 
 .wrapper {
