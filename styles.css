@@ -133,7 +133,18 @@
   .card-title {
     max-width: 55%;
   }
+  .playButton {
+    position: fixed;
+    left: 500px !important;
+  }
 
+  .progressBar {
+    display: none;
+  }
+
+  .startTime, .endTime, .forwardButton, .rewindButton {
+    display: none;
+  }
   .card-text-recently {
     max-width: 55%;
   }
@@ -206,6 +217,18 @@
     position: fixed;
     left: 770px;
     top: 180px;
+  }
+  .playButton {
+    position: fixed;
+    left: 500px !important;
+  }
+
+  .progressBar {
+    display: none;
+  }
+
+  .startTime, .endTime, .forwardButton, .rewindButton {
+    display: none;
   }
 
   .card {
@@ -294,6 +317,21 @@
     display: none !important;
   }
 
+  
+
+  .playButton {
+    position: fixed;
+    left: 500px !important;
+  }
+
+  .progressBar {
+    display: none;
+  }
+
+  .startTime, .endTime, .forwardButton, .rewindButton {
+    display: none;
+  }
+
   .korn {
     position: fixed;
     left: 270px;
@@ -329,6 +367,7 @@
   .armstrong {
     font-size: 79%;
   }
+
 }
 ::-webkit-scrollbar {
   background-color: rgb(34, 28, 28);
