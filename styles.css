@@ -17,6 +17,30 @@
   .qotsa {
     display: none !important;
   }
+  .card-img-top-recently {
+    max-width: 130%;
+  }
+  .skindred {
+    position: fixed;
+    left: 568px;
+    top: 180px;
+  }
+
+  .damageplan {
+    position: fixed;
+    left: 867px;
+    top: 180px;
+  }
+
+  .kasabian {
+      position: fixed;
+      left: 1164px;
+      top: 180px !important;
+    }
+  }
+  .card-text-recently {
+    max-width: 70%;
+  }
 }
 @media only screen and (min-width: 800px) and (max-width: 1460px) {
   body {
@@ -28,6 +52,15 @@
   .biggie {
     display: none !important;
   }
+
+  .card-img-top-recently {
+    max-width: 120%;
+  }
+  .card-text-recently {
+    max-width: 70%;
+  }
+
+  
 }
 @media only screen and (min-width: 1280px) and (max-width: 1460px) {
   body {
@@ -67,26 +100,82 @@
   .card {
     max-width: 288px !important;
   }
+  .card-text-recently {
+    max-width: 70%;
+  }
 }
-@media only screen and (min-width: 1050px) and (max-width: 1545px) {
+@media only screen and (min-width: 550px) and (max-width: 1545px) {
   body {
-    background-color: rgb(8, 11, 211) !important;
+    background-color: rgb(11, 14, 184) !important;
   }
   .rollingstones,
   .foof,
-  .kasabian,
-  .biggie {
+  .qotsa,
+  .icecube,
+  .steve, {
     display: none !important;
   }
   .card {
     max-width: 235px !important;
   }
 
+  .cardTopImg {
+    min-width: 90px;
+    max-width: 90px;
+    position: relative;
+    top: 2px;
+  }
+
+  .card-img-top-recently {
+    max-width: 105% !important;
+    position: relative;
+    right: 6px;
+  }
+
+  .card-title {
+    max-width: 55%;
+  }
+
+  .card-text-recently {
+    max-width: 55%;
+  }
+
   .cardText {
     left: 100px !important;
     top: -60px !important;
   }
+
+  .kasabian {
+    position: fixed;
+    left: 270px;
+    top: 180px !important;
+  }
+
+  .korn {
+    position: fixed;
+    left: 270px;
+    top: 180px;
+  }
+
+  .skindred {
+    position: fixed;
+    left: 516px;
+    top: 180px;
+  }
+
+  .damageplan {
+    position: fixed;
+    left: 760px;
+    top: 180px;
+  }
+
+  .kasabian {
+    position: fixed;
+    left: 1005px;
+    top: 230px;
+  }
 }
+
 @media only screen and (min-width: 400px) and (max-width: 1055px) {
   body {
     background-color: rgb(211, 99, 8) !important;
@@ -95,12 +184,39 @@
   .foof,
   .kasabian,
   .biggie,
-  .damageplan,
-  .skindred {
+  .qotsa,
+  .icecube,
+  .nwa,
+  .gorillaz,
+  .steve,
+  .megadeth {
     display: none !important;
   }
+
+  .korn {
+    position: fixed;
+    left: 270px;
+    top: 180px;
+  }
+
+  .skindred {
+    position: fixed;
+    left: 520px;
+    top: 180px;
+  }
+
+  .damageplan {
+    position: fixed;
+    left: 770px;
+    top: 180px;
+  }
+
   .card {
     max-width: 240px !important;
+  }
+
+  .goodMorningOptions {
+    max-width: 85%;
   }
 
   .cardText {
@@ -347,10 +463,7 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.goodMorningOptions:hover {
-  .cardPlay {
-  }
-}
+
 
 .card {
   position: relative;
