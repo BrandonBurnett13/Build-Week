@@ -13,8 +13,8 @@
     background-color: rgba(143, 209, 148, 0.452) !important;
   }
   .rollingstones,
-  .foof,
-  .qotsa {
+  .foof
+   {
     display: none !important;
   }
   .card-img-top-recently {
@@ -34,13 +34,13 @@
 
   .skindred {
     position: fixed;
-    left: 516px;
+    left: 569px;
     top: 225px !important;
   }
 
   .damageplan {
     position: fixed;
-    left: 760px;
+    left: 865px;
     top: 225px !important;
   }
   }
@@ -125,6 +125,9 @@
     max-width: 235px !important;
   }
 
+  .cardBg {
+    max-width: 119px;
+  }
   .cardTopImg {
     min-width: 90px;
     max-width: 90px;
@@ -137,6 +140,8 @@
     position: relative;
     right: 6px;
   }
+
+  
 
   .card-title {
     max-width: 55%;
