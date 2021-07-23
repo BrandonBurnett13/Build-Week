@@ -228,7 +228,8 @@
                         <div class="d-flex flex-wrap">
                             <span class="text-muted align-self-center">1</span>
                             <div class="d-flex flex-column align-self-center">
-                                <span class="ml-3" style="font-size: 14px;">20th Century Fox Fanfare</span>
+                                <a onclick="audio.play ( )" href="#"> <span class="ml-3" style="font-size: 14px;"> 20th
+                                        Century Fox Fanfare</span></a>
                                 <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
                             </div>
 
@@ -241,7 +242,8 @@
                         <div class="d-flex flex-wrap">
                             <span class="text-muted align-self-center">2</span>
                             <div class="d-flex flex-column align-self-center">
-                                <span class="ml-3" style="font-size: 14px;">Somebody To Love</span>
+                                <a onclick="audio2.play ( )" href="#"> <span class="ml-3"
+                                        style="font-size: 14px;">Somebody To Love</span></a>
                                 <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
                             </div>
 
@@ -254,7 +256,8 @@
                         <div class="d-flex flex-wrap">
                             <span class="text-muted align-self-center">3</span>
                             <div class="d-flex flex-column align-self-center">
-                                <span class="ml-3" style="font-size: 14px;">Doing All Right -...Revisited</span>
+                                <a onclick="audio3.play ( )" href="#"> <span class="ml-3" style="font-size: 14px;">Doing
+                                        All Right -...Revisited</span></a>
                                 <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Smile</span>
                             </div>
 
@@ -267,8 +270,9 @@
                         <div class="d-flex flex-wrap">
                             <span class="text-muted align-self-center">4</span>
                             <div class="d-flex flex-column align-self-center">
-                                <span class="ml-3" style="font-size: 14px;">Keep Yourself Alive - Live At The
-                                    Rainbow</span>
+                                <a onclick="audio4.play ( )" href="#"> <span class="ml-3" style="font-size: 14px;">Keep
+                                        Yourself Alive - Live At The
+                                        Rainbow</span> </a>
                                 <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
                             </div>
 
@@ -281,7 +285,8 @@
                         <div class="d-flex flex-wrap">
                             <span class="text-muted align-self-center">5</span>
                             <div class="d-flex flex-column align-self-center">
-                                <span class="ml-3" style="font-size: 14px;">Killer Queen</span>
+                                <a onclick="audio5.play ( )" href="#"> <span class="ml-3"
+                                        style="font-size: 14px;">Killer Queen</span> </a>
                                 <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
                             </div>
 
@@ -294,7 +299,8 @@
                         <div class="d-flex flex-wrap">
                             <span class="text-muted align-self-center">6</span>
                             <div class="d-flex flex-column align-self-center">
-                                <span class="ml-3" style="font-size: 14px;">Fat Bottomed Girls - Live In Paris</span>
+                                <a onclick="audio6.play ( )" href="#"> <span class="ml-3" style="font-size: 14px;">Fat
+                                        Bottomed Girls - Live In Paris</span></a>
                                 <span class="text-muted mt-0 ml-3" style="font-size: 12px;">Queen</span>
                             </div>
 
@@ -367,6 +373,23 @@
         </div>
     </div>
 
+
+    <script>
+        const audio = new Audio("/assets/louis.wav");
+
+        const audio2 = new Audio("/assets/iron.wav");
+
+        const audio3 = new Audio("/assets/The Beatles - Come Together.wav");
+
+        const audio4 = new Audio("/assets/poppacut.wav");
+
+        const audio5 = new Audio("/assets/korn.wav");
+
+        const audio6 = new Audio("/assets/pressure.wav");
+
+
+
+    </script>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
