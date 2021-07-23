@@ -20,23 +20,29 @@
   .card-img-top-recently {
     max-width: 130%;
   }
+  .kasabian {
+    position: fixed;
+    left: 1164px;
+    top: 225px !important;
+  }
+
+  .korn {
+    position: fixed;
+    left: 270px;
+    top: 225px !important;
+  }
+
   .skindred {
     position: fixed;
-    left: 568px;
-    top: 190px;
+    left: 516px;
+    top: 225px !important;
   }
 
   .damageplan {
     position: fixed;
-    left: 867px;
-    top: 190px;
+    left: 760px;
+    top: 225px !important;
   }
-
-  .kasabian {
-      position: fixed;
-      left: 1164px;
-      top: 190px;
-    }
   }
   .card-text-recently {
     max-width: 70%;
@@ -57,6 +63,7 @@
   .card-text-recently {
     max-width: 70%;
   }
+  
 
   
 }
@@ -84,6 +91,7 @@
   .card {
     max-width: 288px !important;
   }
+  
 }
 @media only screen and (min-width: 1245px) and (max-width: 1380px) {
   body {
@@ -163,25 +171,25 @@
   .korn {
     position: fixed;
     left: 270px;
-    top: 195px !important;
+    top: 225px !important;
   }
 
   .skindred {
     position: fixed;
     left: 516px;
-    top: 195px !important;
+    top: 225px !important;
   }
 
   .damageplan {
     position: fixed;
     left: 760px;
-    top: 195px !important;
+    top: 225px !important;
   }
 
   .kasabian {
     position: fixed;
     left: 1005px;
-    top: 230px;
+    top: 225px !important;
   }
 }
 
@@ -244,9 +252,7 @@
     top: -60px !important;
   }
 
-  .armstrong {
-    font-size: 79%;
-  }
+  
 }
 @media only screen and (min-width: 400px) and (max-width: 1025px) {
   body {
@@ -296,9 +302,7 @@
     top: -60px !important;
   }
 
-  .armstrong {
-    font-size: 79%;
-  }
+  
 }
 @media only screen and (min-width: 400px) and (max-width: 924px) {
   body {
@@ -364,9 +368,7 @@
     top: -60px !important;
   }
 
-  .armstrong {
-    font-size: 79%;
-  }
+ 
 
 }
 ::-webkit-scrollbar {
