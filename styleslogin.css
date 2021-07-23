@@ -4,5 +4,11 @@
         background-position: right top;
         background-repeat: no-repeat;
         background-size: contain;
-      
+      display: flex;
+      flex-wrap: wrap;
 }
+
+
+
+
+  
