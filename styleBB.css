@@ -1,4 +1,4 @@
-nav{
+/*nav{
     background-color: black;
     padding: 20px;
     padding-left: 10px;
@@ -10,11 +10,29 @@ nav{
     height: 100vh;
     z-index: 2;
     color: white;
-}
+}*/
 
+nav ul {
+    position: absolute;
+    left: -30px;
+    top: 320px;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 269px;
+    max-height: 600px;
+    background-color: black;
+  }
+  
+  nav {
+    background-color: rgb(172, 4, 4);
+    width: 240px;
+    height: 860px;
+    position: fixed;
+    
+  }
 .sidebar{
-    width: 200px !important;
-}
+    width: 200px !important; 
 .logo{
     height: 40px;
     max-width: 131px;
