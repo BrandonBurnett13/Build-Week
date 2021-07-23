@@ -25,19 +25,18 @@ nav ul {
   }
   
   nav {
-    background-color: rgb(172, 4, 4);
+    background-color: rgb(14, 10, 10);
     width: 240px;
     height: 860px;
     position: fixed;
     
   }
-.sidebar{
-    width: 200px !important; 
-.logo{
-    height: 40px;
-    max-width: 131px;
-    width: 100%;
-}
+
+    .logo {
+        position: relative;
+        max-width: 130px;
+        left: 20px;
+      }
 
 
 ul{
