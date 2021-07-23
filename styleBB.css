@@ -184,3 +184,22 @@ h1{
 .media{
     color: white;
 }
+
+.table{
+    color: white;
+}
+
+.table tr :hover{
+    background-color: grey;
+}
+
+.a :hover{
+    background-color: grey;
+}
+
+.userSect {
+    position: fixed;
+    top: 1vh;
+    right: 1vh;
+    z-index: 3;
+}

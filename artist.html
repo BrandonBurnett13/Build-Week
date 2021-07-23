@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="styleBB.css">
-    <title>Fall Out Boy</title>
+    <title>Fall Out Boy | Spotify</title>
   </head>
 
   <body class="row">
@@ -44,6 +44,7 @@
       <div class="d-flex">
         <img class="logoSpotifyHeart" src="Assets/spotifyheart.jfif"><a class="nav-link" href="#"><p class="likedSongsTxt">Liked Songs</p></a>
       </div>
+      <div class="navLinks">
         <ul>
           <li>
             <a class="nav-link" href="#">Funky Heavy Bluesy</a>
@@ -97,10 +98,18 @@
             <a class="nav-link" href="#">Blues Classics</a>
           </li>
         </ul>
+      </div>
         <div class="d-flex">
         <img class="logoInstall" src="Assets/output-onlinepngtools (4).png"> <a class="nav-link install" href="#">Install App</a>
       </div>
       </nav>
+    </div>
+
+    <div class="userSect">
+      <div class="button">
+        <a href="login.html"><button class="btn btn-light" type="button" id="MenuButton" aria-haspopup="true" aria-expanded="false">
+          <img class="userImg" src="" />login</button></a>
+      </div>
     </div>
 
   <div class="main">
@@ -128,39 +137,39 @@
         </div>
         
        <h4>Popular</h4>
-       <table class="table table-dark">
+       <table class="table table-#121212">
         <tbody>
           <tr>
             <th scope="row"><audio id="sound1" src="/sounds/Centuries_-_Fall_Out_Boy_(Lyrics).mp3" preload="auto"></audio>
-              <button onclick="document.getElementById('sound1').play();">1</button></th>
+              <button onclick="document.getElementById('sound1').play();" class="btn btn-secondary btn-outline-dark">1</button></th>
             <td>Centuries</td>
             <td>730,872,101</td>
             <td>3:48</td>
           </tr>
           <tr>
             <th scope="row"><audio id="sound2" src="#" preload="auto"></audio>
-              <button onclick="document.getElementById('sound2').play();">2</button></th>
+              <button onclick="document.getElementById('sound2').play();" class="btn btn-secondary btn-outline-dark">2</button></th>
             <td><span>Summer Days (feat.Macklemore & Patrick Stump of Fall out Boy)</span></td>
             <td>468,531,733</td>
             <td>2:43</td>
           </tr>
           <tr>
             <th scope="row"><audio id="sound2" src="#" preload="auto"></audio>
-              <button onclick="document.getElementById('sound2').play();">3</button></th>            
+              <button onclick="document.getElementById('sound2').play();" class="btn btn-secondary btn-outline-dark">3</button></th>            
               <td>Suagar, We're Going Down</td>
             <td>472,847,750</td>
             <td>3:49</td>
           </tr>
           <tr>
             <th scope="row"><audio id="sound2" src="#" preload="auto"></audio>
-              <button onclick="document.getElementById('sound2').play();">4</button></th>            
+              <button onclick="document.getElementById('sound2').play();" class="btn btn-secondary btn-outline-dark">4</button></th>            
               <td>Thnks fr th Mmrs</td>
             <td>385,818,742</td>
             <td>3:23</td>
           </tr>
           <tr>
             <th scope="row"><audio id="sound2" src="#" preload="auto"></audio>
-              <button onclick="document.getElementById('sound2').play();">5</button></th>            
+              <button onclick="document.getElementById('sound2').play();" class="btn btn-secondary btn-outline-dark">5</button></th>            
               <td>Dance, Dance</td>
             <td>301,006,963</td>
             <td>3:00</td>
