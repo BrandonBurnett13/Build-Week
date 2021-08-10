@@ -16,6 +16,7 @@ function searchDeezer(query) {
         if (data.data) {
             const obj = { title: query, albums: data.data };
             albums.push(obj);
+            console.log(albums);
         } else {
             error = true;
         }
@@ -26,10 +27,10 @@ function searchDeezer(query) {
     });
 }
 
-window.onload = () => {
+window.onload = function() {
 
-    searchDeezer("Pink Floyd");
-    searchDeezer("Eric Clapton");
+    searchDeezer("Metallica");
+    searchDeezer("Behemoth");
     searchDeezer("Eminem");
 };
     // fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=eminem", {

@@ -761,6 +761,14 @@ p {
   font-weight: bold;
 }
 
+.seeMore {
+  position: absolute;
+  bottom: 10px;
+  z-index: 3;
+}
+
+
+
 .footer {
   position: fixed !important;
   left: 0;
