@@ -68,7 +68,7 @@ window.onload = function() {
         let pageContent = document.querySelector(".mainSection");
         let pageContentHTML = "";
         pageContent.childNodes.forEach((node, index) => {
-            if (index !== 1) {
+            if (index !== 0) {
               node.remove();
             }
           });
