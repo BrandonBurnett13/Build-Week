@@ -413,6 +413,12 @@ body {
   bottom: 15px;
   left: 8px;
 }
+
+.topMenu {
+  position: absolute;
+  top: 25px;
+  left: 200px;
+}
 .logo {
   position: relative;
   max-width: 130px;
